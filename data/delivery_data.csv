@@ -1,0 +1,1501 @@
+order_id,zone,hour,day_of_week,distance_km,congestion,num_stops,vehicle_type,weather,delivery_time_min
+1,Jubilee Hills,12,4,1.82,0.352,4,Bike,Clear,12.6
+2,Mehdipatnam,9,1,7.12,0.914,1,Bike,Cloudy,77.3
+3,Kukatpally,18,0,17.27,0.884,4,Bike,Rain,120.0
+4,Kondapur,20,1,9.51,0.808,5,Van,Clear,90.7
+5,Attapur,16,1,8.36,0.313,1,Bike,Cloudy,54.9
+6,Tolichowki,13,1,8.78,0.727,5,Truck,Clear,83.3
+7,Banjara Hills,18,1,4.55,0.868,5,Van,Cloudy,43.9
+8,Banjara Hills,10,5,7.27,0.825,6,Van,Cloudy,76.3
+9,Secunderabad,12,0,7.29,0.454,3,Bike,Clear,56.5
+10,Kondapur,15,5,1.89,0.165,7,Bike,Clear,10.2
+11,Banjara Hills,8,2,14.05,0.883,6,Bike,Rain,120.0
+12,Kukatpally,12,6,8.08,0.414,4,Bike,Cloudy,58.1
+13,Secunderabad,16,1,14.98,0.257,7,Bike,Rain,85.1
+14,LB Nagar,16,6,15.46,0.202,4,Truck,Cloudy,84.4
+15,Banjara Hills,13,3,4.6,0.548,3,Bike,Rain,30.1
+16,Dilsukhnagar,10,4,12.18,0.833,7,Bike,Clear,120.0
+17,Attapur,9,4,9.03,0.904,6,Bike,Clear,90.2
+18,Mehdipatnam,13,5,15.96,0.449,4,Bike,Clear,120.0
+19,Gachibowli,13,5,4.67,0.473,6,Truck,Clear,33.6
+20,Attapur,8,3,12.52,0.702,3,Bike,Clear,112.8
+21,Hitech City,11,1,11.33,0.206,7,Bike,Cloudy,60.2
+22,Kondapur,10,6,6.02,0.838,7,Van,Clear,59.5
+23,Kukatpally,7,6,3.32,0.326,1,Bike,Clear,25.3
+24,Ameerpet,13,0,12.08,0.408,5,Bike,Rain,76.3
+25,Mehdipatnam,17,2,13.56,0.937,5,Bike,Clear,120.0
+26,Jubilee Hills,19,4,6.37,,6,Bike,Clear,71.6
+27,Kukatpally,11,2,11.96,0.291,7,Bike,Cloudy,69.3
+28,Attapur,7,0,7.72,0.438,4,Bike,Cloudy,52.0
+29,Attapur,21,5,13.12,0.173,6,Van,Clear,73.8
+30,Banjara Hills,17,6,4.39,0.726,6,Bike,Clear,37.6
+31,Kukatpally,10,4,16.13,0.622,2,Van,Cloudy,120.0
+32,Ameerpet,6,2,5.89,0.4,7,Van,Clear,43.9
+33,Jubilee Hills,17,5,7.25,0.915,5,Van,Clear,77.8
+34,Secunderabad,15,0,1.99,0.244,7,Bike,Cloudy,8.6
+35,Banjara Hills,11,2,2.9,0.278,3,Bike,Clear,18.0
+36,Mehdipatnam,18,6,9.77,0.737,6,Van,Clear,87.9
+37,Madhapur,17,1,5.55,1.0,2,Van,Clear,65.5
+38,Banjara Hills,14,5,15.2,0.513,2,Van,Rain,120.0
+39,Hitech City,6,0,1.25,0.261,5,Bike,Rain,8.9
+40,LB Nagar,16,2,7.44,0.323,5,Truck,Clear,48.2
+41,Madhapur,16,6,6.73,0.298,5,Bike,Clear,46.7
+42,Hitech City,20,1,1.33,0.872,3,Bike,Clear,13.7
+43,Ameerpet,15,1,3.11,0.171,2,Bike,Clear,12.7
+44,Kondapur,21,0,8.03,0.297,4,Bike,Clear,50.7
+45,Jubilee Hills,17,3,9.38,1.0,3,Bike,Cloudy,111.3
+46,Gachibowli,17,6,7.87,0.985,1,Van,Clear,84.3
+47,Secunderabad,21,6,10.03,0.409,6,Van,Clear,
+48,Gachibowli,20,4,11.12,0.799,5,Truck,Clear,109.7
+49,Dilsukhnagar,19,0,1.17,0.751,2,Bike,Clear,10.8
+50,Dilsukhnagar,19,1,8.89,0.837,6,Van,Clear,86.2
+51,Ameerpet,20,1,,0.856,7,Bike,Clear,120.0
+52,Kondapur,19,0,9.82,0.959,3,Bike,Cloudy,114.1
+53,LB Nagar,8,3,12.52,0.631,1,Bike,Cloudy,107.5
+54,LB Nagar,17,4,6.3,1.0,7,Bike,Clear,67.9
+55,Dilsukhnagar,12,2,14.16,0.484,3,Bike,Clear,
+56,Mehdipatnam,9,0,14.14,0.757,3,Bike,Clear,120.0
+57,Mehdipatnam,21,4,9.86,0.149,4,Van,Clear,53.3
+58,Attapur,14,6,17.59,0.335,6,Truck,Cloudy,114.2
+59,Tolichowki,8,4,3.13,0.882,4,Bike,Clear,32.4
+60,Banjara Hills,10,5,1.29,0.807,3,Truck,Cloudy,
+61,Kukatpally,8,1,14.09,0.671,1,Van,Cloudy,120.0
+62,Hitech City,12,2,14.72,0.37,2,Van,Rain,100.7
+63,Dilsukhnagar,10,0,3.04,0.766,2,Van,Rain,31.7
+64,Ameerpet,14,1,5.51,0.667,7,Bike,Clear,43.9
+65,Attapur,12,5,1.3,0.474,6,Van,Rain,14.4
+66,Uppal,7,5,5.99,0.1,5,Van,Cloudy,30.0
+67,Hitech City,9,1,14.14,0.775,5,Truck,Cloudy,120.0
+68,Banjara Hills,14,3,9.81,0.473,2,Van,Clear,68.6
+69,Kondapur,17,4,6.92,0.58,3,Van,Rain,52.5
+70,Jubilee Hills,19,0,7.32,0.845,3,Van,Clear,73.3
+71,LB Nagar,7,0,1.02,0.227,4,Bike,Cloudy,7.3
+72,Gachibowli,15,0,6.1,0.32,6,Bike,Clear,43.8
+73,Banjara Hills,14,1,11.99,0.685,4,Bike,Cloudy,109.2
+74,Secunderabad,15,6,17.56,0.363,5,Bike,Clear,115.4
+75,Madhapur,10,3,15.4,0.773,2,Bike,Clear,120.0
+76,Ameerpet,7,2,1.4,0.139,7,Truck,Clear,10.7
+77,LB Nagar,9,5,,1.0,3,Van,Clear,120.0
+78,Gachibowli,17,1,14.31,0.856,2,Truck,Clear,120.0
+79,Secunderabad,20,6,14.27,,1,Van,Clear,120.0
+80,Jubilee Hills,17,2,8.79,0.848,2,Van,Cloudy,93.5
+81,Secunderabad,12,5,7.77,0.52,1,Truck,Cloudy,62.2
+82,Uppal,17,5,6.15,0.836,4,Van,Cloudy,61.2
+83,Kondapur,18,3,2.12,0.793,4,Truck,Clear,19.0
+84,Mehdipatnam,13,4,4.88,0.445,5,Bike,Clear,34.1
+85,Madhapur,20,0,5.19,0.847,2,Bike,Clear,
+86,Hitech City,8,2,9.23,0.746,2,Bike,Rain,86.7
+87,Gachibowli,19,1,13.71,0.779,1,Van,Rain,120.0
+88,Madhapur,6,2,9.05,0.261,4,Van,Clear,52.7
+89,Kukatpally,9,4,1.98,,1,Bike,Clear,19.2
+90,Banjara Hills,7,0,17.28,0.4,4,Bike,Rain,112.6
+91,Kukatpally,13,2,17.03,0.235,1,Truck,Rain,98.3
+92,Banjara Hills,9,4,14.35,0.909,4,Van,Rain,120.0
+93,Kondapur,7,1,17.85,0.375,1,Bike,Cloudy,116.1
+94,Madhapur,19,3,10.26,0.643,7,Van,Clear,83.4
+95,Mehdipatnam,11,6,17.37,0.216,4,Van,Clear,91.1
+96,Jubilee Hills,11,5,2.29,0.213,6,Truck,Clear,8.6
+97,Tolichowki,15,1,7.22,0.109,1,Bike,Clear,32.4
+98,Tolichowki,9,0,4.83,0.722,2,Bike,Clear,50.3
+99,Mehdipatnam,11,5,4.33,0.139,5,Bike,Clear,20.1
+100,Dilsukhnagar,18,6,3.39,1.0,6,Bike,Clear,
+101,Secunderabad,20,1,11.58,0.944,6,Truck,Clear,
+102,Attapur,7,1,14.28,0.377,1,Bike,Clear,96.3
+103,Dilsukhnagar,15,1,10.83,0.322,5,Truck,Clear,68.2
+104,Madhapur,17,1,3.5,0.737,2,Bike,Clear,29.0
+105,Kukatpally,7,5,14.79,0.198,6,Truck,Cloudy,84.5
+106,Attapur,15,0,11.81,0.299,2,Bike,Cloudy,78.1
+107,Tolichowki,19,6,7.6,0.728,4,Truck,Clear,65.2
+108,Dilsukhnagar,9,4,12.46,0.871,7,Truck,Clear,120.0
+109,Tolichowki,19,2,5.42,0.826,5,Truck,Clear,53.1
+110,Ameerpet,20,3,6.87,0.813,7,Bike,Cloudy,64.8
+111,LB Nagar,21,6,16.6,0.321,3,Bike,Clear,106.3
+112,Tolichowki,20,2,5.94,0.894,4,Van,Clear,59.8
+113,Mehdipatnam,13,2,8.99,0.464,5,Bike,Rain,72.5
+114,Dilsukhnagar,19,3,16.13,,1,Bike,Clear,120.0
+115,Banjara Hills,12,6,13.03,0.392,7,Bike,Clear,89.5
+116,Attapur,17,5,2.06,0.912,1,Van,Clear,24.8
+117,Ameerpet,14,0,3.5,0.559,2,Van,Clear,31.4
+118,Gachibowli,19,3,1.13,0.819,6,Bike,Clear,9.5
+119,Dilsukhnagar,13,0,11.73,0.533,7,Bike,Rain,89.4
+120,Ameerpet,10,5,8.61,0.675,3,Bike,Clear,76.5
+121,Mehdipatnam,21,2,3.28,0.342,1,Van,Cloudy,23.8
+122,Tolichowki,18,0,17.28,0.832,5,Bike,Clear,120.0
+123,Madhapur,7,5,10.0,0.198,7,Bike,Clear,49.5
+124,LB Nagar,20,5,5.11,0.955,7,Truck,Clear,53.2
+125,Secunderabad,10,4,9.51,0.73,6,Truck,Clear,87.8
+126,LB Nagar,13,3,12.55,0.359,6,Truck,Clear,82.4
+127,Gachibowli,15,4,2.3,0.094,5,Truck,Clear,16.7
+128,Jubilee Hills,14,2,5.67,0.561,6,Bike,Rain,41.4
+129,Attapur,17,3,14.72,0.722,1,Van,Clear,120.0
+130,Jubilee Hills,17,2,8.81,1.0,5,Bike,Clear,103.2
+131,Kondapur,17,4,10.29,0.642,5,Van,Clear,95.5
+132,Dilsukhnagar,18,6,8.36,1.0,2,Bike,Clear,92.4
+133,Secunderabad,14,5,1.75,0.521,3,Van,Clear,15.0
+134,Uppal,18,2,3.82,0.84,7,Van,Clear,40.1
+135,Hitech City,20,3,8.57,0.796,2,Bike,Clear,84.0
+136,Ameerpet,18,3,4.56,0.89,3,Van,Clear,47.1
+137,Gachibowli,6,2,1.85,0.246,5,Bike,Cloudy,12.0
+138,Madhapur,14,3,15.34,0.61,7,Bike,Clear,120.0
+139,Dilsukhnagar,12,5,17.68,0.511,6,Bike,Clear,120.0
+140,Madhapur,14,6,14.48,0.515,3,Bike,Cloudy,112.0
+141,Hitech City,13,5,15.51,0.464,5,Bike,Rain,113.2
+142,Attapur,6,3,5.11,0.244,5,Truck,Cloudy,35.6
+143,Kondapur,17,2,17.33,0.881,2,Bike,Clear,120.0
+144,Uppal,13,4,4.35,0.329,2,Bike,Cloudy,26.5
+145,Hitech City,13,3,17.17,0.365,6,Bike,Clear,119.8
+146,LB Nagar,20,3,17.91,0.924,4,Van,Clear,120.0
+147,Tolichowki,16,3,13.1,0.267,1,Van,Rain,75.9
+148,LB Nagar,8,3,17.68,0.782,4,Van,Clear,120.0
+149,Tolichowki,6,2,10.68,0.252,4,Van,Rain,64.6
+150,Banjara Hills,13,4,5.41,0.535,7,Truck,Cloudy,43.1
+151,Kukatpally,8,4,8.43,0.746,7,Truck,Cloudy,75.1
+152,Gachibowli,8,0,11.09,0.722,6,Van,Cloudy,100.4
+153,Attapur,6,3,2.24,0.27,7,Bike,Clear,11.5
+154,Kukatpally,16,3,11.58,0.152,3,Van,Clear,58.8
+155,Hitech City,10,0,17.68,,6,Van,Rain,120.0
+156,Uppal,15,4,4.23,0.08,6,Van,Cloudy,20.6
+157,Tolichowki,12,1,14.47,0.603,5,Van,Rain,115.4
+158,Tolichowki,15,5,16.43,0.297,5,Van,Rain,104.1
+159,LB Nagar,14,1,17.04,0.526,5,Van,Rain,120.0
+160,Kondapur,17,4,17.32,0.948,1,Bike,Cloudy,120.0
+161,Kondapur,12,6,9.86,0.667,3,Bike,Clear,88.1
+162,Tolichowki,14,3,17.61,0.601,3,Bike,Clear,120.0
+163,Mehdipatnam,13,1,13.87,0.316,5,Truck,Cloudy,88.5
+164,Jubilee Hills,17,2,3.75,0.722,4,Van,Clear,38.5
+165,LB Nagar,7,2,9.11,0.188,1,Van,Clear,50.3
+166,Dilsukhnagar,6,0,13.21,0.253,4,Van,Clear,76.6
+167,Uppal,21,4,5.2,0.302,2,Van,Rain,38.9
+168,Jubilee Hills,12,4,,,3,Truck,Rain,86.8
+169,Gachibowli,12,1,12.33,0.519,3,Van,Cloudy,97.1
+170,Tolichowki,19,3,3.77,0.774,4,Van,Clear,32.2
+171,Gachibowli,13,4,10.61,0.439,1,Van,Cloudy,72.1
+172,Gachibowli,10,1,14.12,0.659,3,Bike,Cloudy,120.0
+173,Madhapur,8,1,9.48,0.708,4,Van,Clear,86.7
+174,Jubilee Hills,17,5,1.21,0.715,6,Bike,Clear,9.2
+175,Madhapur,13,5,1.15,0.402,6,Bike,Clear,8.4
+176,Kukatpally,11,4,7.07,0.355,7,Van,Clear,51.1
+177,LB Nagar,16,1,16.75,0.155,1,Van,Cloudy,87.8
+178,Dilsukhnagar,8,0,4.89,1.0,4,Truck,Clear,51.3
+179,Hitech City,6,0,11.78,0.299,7,Bike,Rain,72.2
+180,LB Nagar,8,5,4.78,0.818,6,Bike,Clear,44.8
+181,Uppal,10,4,6.47,0.714,1,Bike,Clear,58.0
+182,Ameerpet,20,3,15.42,0.92,7,Bike,Clear,120.0
+183,Jubilee Hills,19,6,13.39,0.792,5,Bike,Clear,120.0
+184,LB Nagar,8,0,2.62,0.812,1,Bike,Clear,22.1
+185,Ameerpet,6,0,8.29,0.506,2,Bike,Clear,63.0
+186,Mehdipatnam,10,5,,0.79,5,Bike,Clear,12.8
+187,LB Nagar,15,5,9.18,0.365,7,Bike,Clear,52.0
+188,Kondapur,12,4,12.26,0.43,4,Van,Cloudy,93.1
+189,Jubilee Hills,20,5,3.01,0.847,5,Bike,Clear,33.7
+190,Kukatpally,19,2,5.91,1.0,5,Van,Clear,65.1
+191,Attapur,12,6,7.76,0.437,7,Van,Cloudy,55.6
+192,Jubilee Hills,16,1,16.63,0.431,4,Bike,Clear,114.7
+193,Attapur,14,0,17.89,0.571,4,Truck,Cloudy,120.0
+194,Madhapur,20,2,1.76,0.794,6,Van,Rain,22.8
+195,Dilsukhnagar,20,3,13.94,0.913,2,Van,Clear,120.0
+196,Hitech City,15,2,7.32,0.347,4,Bike,Rain,50.6
+197,Secunderabad,15,4,7.67,0.312,3,Van,Cloudy,48.5
+198,Hitech City,17,3,13.82,0.693,3,Van,Rain,120.0
+199,LB Nagar,18,3,16.61,0.777,2,Bike,Cloudy,120.0
+200,Tolichowki,8,5,17.17,0.775,1,Bike,Clear,120.0
+201,Uppal,20,2,10.81,0.843,7,Bike,Rain,107.5
+202,Uppal,21,4,7.07,0.312,1,Van,Clear,43.5
+203,Hitech City,12,0,14.39,0.518,3,Bike,Clear,110.9
+204,Kondapur,6,6,5.27,0.116,4,Van,Clear,25.2
+205,Kukatpally,9,5,10.59,0.838,2,Bike,Clear,106.4
+206,Attapur,18,2,7.1,0.911,1,Van,Clear,71.7
+207,Ameerpet,21,0,12.16,0.306,1,Bike,Cloudy,73.3
+208,Uppal,9,2,5.09,0.908,7,Bike,Rain,49.8
+209,LB Nagar,19,5,4.26,0.933,5,Van,Clear,48.6
+210,Kukatpally,10,0,16.61,0.846,3,Bike,Rain,120.0
+211,Secunderabad,12,5,2.73,0.493,4,Bike,Rain,24.1
+212,Kondapur,12,2,9.6,0.334,2,Bike,Clear,65.6
+213,Dilsukhnagar,18,3,4.75,0.893,1,Van,Clear,48.7
+214,LB Nagar,20,6,1.66,0.871,7,Truck,Cloudy,9.3
+215,Tolichowki,16,1,1.61,0.277,5,Van,Cloudy,8.6
+216,Hitech City,18,6,3.98,0.722,3,Bike,Cloudy,36.4
+217,Madhapur,9,3,15.74,0.692,3,Bike,Cloudy,120.0
+218,Kondapur,18,5,5.8,,7,Van,Clear,61.6
+219,Uppal,21,6,17.16,0.246,2,Van,Clear,103.6
+220,Gachibowli,12,5,10.89,0.568,1,Bike,Clear,90.1
+221,Uppal,16,5,8.42,0.253,2,Bike,Clear,46.2
+222,Jubilee Hills,8,0,10.86,0.803,7,Bike,Cloudy,101.4
+223,Kukatpally,11,4,9.78,0.344,7,Van,Cloudy,62.4
+224,Mehdipatnam,17,5,13.9,0.798,2,Bike,Clear,120.0
+225,Kondapur,7,6,5.8,0.26,6,Van,Rain,35.5
+226,Gachibowli,15,6,7.0,0.204,5,Bike,Clear,36.7
+227,Uppal,18,6,16.2,0.807,3,Bike,Cloudy,120.0
+228,Attapur,19,3,17.09,0.819,6,Bike,Cloudy,120.0
+229,Ameerpet,14,1,16.17,0.522,4,Bike,Rain,120.0
+230,Secunderabad,10,5,8.13,0.752,3,Bike,Cloudy,76.4
+231,Secunderabad,11,5,,0.376,3,Bike,Clear,95.1
+232,Hitech City,17,5,9.1,0.761,5,Bike,Rain,85.1
+233,Hitech City,17,0,9.46,0.831,4,Bike,Cloudy,98.0
+234,Kondapur,17,5,4.48,0.806,1,Bike,Clear,42.0
+235,Kondapur,17,3,11.05,0.995,4,Truck,Cloudy,120.0
+236,Dilsukhnagar,9,2,4.16,0.82,1,Van,Rain,41.4
+237,Jubilee Hills,19,4,6.64,0.953,4,Van,Clear,70.6
+238,Banjara Hills,19,6,15.54,0.701,2,Bike,Clear,120.0
+239,Ameerpet,16,5,4.52,0.277,7,Bike,Cloudy,28.1
+240,Hitech City,21,0,2.21,0.339,4,Bike,Cloudy,14.0
+241,Banjara Hills,15,3,2.17,0.258,6,Van,Clear,14.2
+242,Banjara Hills,12,5,16.99,0.607,6,Bike,Clear,120.0
+243,LB Nagar,17,0,9.62,0.798,5,Bike,Clear,97.4
+244,Tolichowki,14,2,7.96,0.641,7,Van,Cloudy,65.9
+245,Jubilee Hills,12,1,14.78,0.73,7,Bike,Cloudy,120.0
+246,Madhapur,19,5,15.21,0.814,1,Bike,Clear,120.0
+247,Madhapur,6,3,6.65,0.205,3,Bike,Clear,37.7
+248,Attapur,6,0,12.79,0.395,5,Van,Clear,89.0
+249,Hitech City,14,0,14.11,0.658,6,Van,Cloudy,120.0
+250,Uppal,16,5,12.13,0.198,6,Bike,Clear,67.1
+251,Gachibowli,19,0,3.58,0.808,1,Bike,Clear,39.0
+252,Uppal,14,1,15.89,0.472,6,Van,Clear,110.9
+253,Mehdipatnam,9,0,,0.666,6,Bike,Cloudy,90.9
+254,Jubilee Hills,18,6,5.8,0.758,1,Van,Clear,47.4
+255,Jubilee Hills,14,4,8.23,0.4,6,Van,Clear,53.7
+256,Tolichowki,8,6,1.64,0.723,3,Bike,Rain,20.0
+257,Kukatpally,12,4,3.17,0.497,2,Bike,Clear,22.3
+258,Mehdipatnam,11,0,14.01,0.273,5,Van,Clear,80.1
+259,Banjara Hills,13,5,1.0,0.655,3,Bike,Rain,8.1
+260,Kukatpally,16,4,8.08,0.15,3,Bike,Clear,47.3
+261,Attapur,14,3,9.88,0.598,2,Van,Clear,76.6
+262,Uppal,19,4,1.93,0.829,7,Bike,Clear,16.1
+263,Attapur,10,6,17.54,0.795,5,Bike,Cloudy,120.0
+264,Uppal,6,0,4.84,0.317,3,Bike,Clear,36.0
+265,Attapur,8,5,6.17,0.688,6,Van,Cloudy,54.9
+266,Banjara Hills,15,2,6.17,0.288,2,Bike,Clear,33.7
+267,Attapur,17,5,4.92,0.867,7,Truck,Clear,56.6
+268,Madhapur,13,5,1.03,0.549,5,Van,Cloudy,12.9
+269,Hitech City,20,5,13.4,0.879,4,Bike,Rain,120.0
+270,Ameerpet,16,3,17.44,0.496,1,Bike,Clear,120.0
+271,Madhapur,11,1,4.81,0.186,6,Bike,Cloudy,25.6
+272,LB Nagar,21,6,12.27,0.197,2,Van,Clear,66.0
+273,Jubilee Hills,21,0,13.61,0.188,1,Van,Clear,73.8
+274,Ameerpet,13,1,15.42,0.444,7,Van,Clear,115.4
+275,Kondapur,14,2,8.18,0.436,7,Bike,Cloudy,61.1
+276,Ameerpet,9,1,6.15,0.919,4,Van,Clear,62.1
+277,Ameerpet,6,0,6.53,0.392,3,Bike,Clear,48.7
+278,Madhapur,19,6,13.11,0.793,3,Van,Clear,120.0
+279,Jubilee Hills,6,6,14.89,0.167,5,Van,Clear,79.5
+280,Ameerpet,15,0,4.09,0.297,2,Bike,Rain,29.5
+281,Tolichowki,9,2,7.31,0.745,2,Bike,Rain,65.1
+282,Tolichowki,17,0,16.33,0.913,7,Van,Cloudy,120.0
+283,LB Nagar,19,2,14.71,0.87,5,Van,Clear,120.0
+284,Madhapur,12,2,17.74,0.348,1,Bike,Clear,110.8
+285,Madhapur,7,0,13.82,0.405,3,Bike,Cloudy,96.6
+286,Ameerpet,8,4,7.68,0.98,3,Van,Rain,92.5
+287,Banjara Hills,6,6,11.04,0.189,7,Bike,Clear,53.6
+288,Jubilee Hills,10,2,12.24,0.761,2,Bike,Cloudy,115.9
+289,Uppal,6,0,2.33,0.279,7,Bike,Rain,15.9
+290,Uppal,13,4,10.26,0.533,2,Bike,Rain,80.8
+291,Secunderabad,6,6,13.06,0.316,5,Van,Clear,81.6
+292,LB Nagar,16,2,3.84,0.451,4,Truck,Clear,24.0
+293,Uppal,6,6,14.27,0.232,1,Van,Clear,81.7
+294,Ameerpet,7,4,10.92,0.17,6,Bike,Clear,54.8
+295,Uppal,7,6,17.19,0.112,4,Van,Clear,76.0
+296,Kukatpally,17,3,1.72,0.777,4,Bike,Clear,20.1
+297,Kukatpally,11,5,5.51,0.247,2,Bike,Cloudy,34.7
+298,Kondapur,12,3,11.23,0.679,2,Truck,Clear,100.0
+299,Jubilee Hills,10,4,6.04,0.748,2,Bike,Clear,57.4
+300,LB Nagar,21,2,13.15,0.272,4,Truck,Cloudy,81.6
+301,Madhapur,6,0,13.9,0.248,7,Bike,Cloudy,81.1
+302,Dilsukhnagar,6,1,2.74,0.369,1,Van,Cloudy,21.0
+303,Hitech City,8,0,9.74,1.0,7,Bike,Clear,108.1
+304,Gachibowli,19,6,9.65,0.797,2,Bike,Cloudy,97.9
+305,Mehdipatnam,7,1,7.28,0.201,3,Bike,Clear,40.6
+306,Dilsukhnagar,10,1,16.86,0.904,7,Van,Clear,120.0
+307,Uppal,17,6,15.07,0.918,1,Van,Cloudy,120.0
+308,LB Nagar,15,6,12.85,0.435,3,Van,Clear,92.5
+309,Jubilee Hills,21,2,13.14,0.308,1,Van,Clear,79.3
+310,Attapur,11,4,8.85,0.214,2,Van,Clear,47.1
+311,Jubilee Hills,21,0,16.66,0.309,7,Bike,Clear,101.2
+312,Uppal,12,4,,0.611,6,Bike,Clear,104.4
+313,Ameerpet,9,3,13.39,0.882,5,Van,Cloudy,120.0
+314,Ameerpet,12,2,15.65,0.551,2,Van,Clear,
+315,Dilsukhnagar,16,2,5.66,0.357,4,Van,Rain,42.9
+316,Madhapur,13,3,14.72,0.617,6,Bike,Clear,120.0
+317,Mehdipatnam,16,0,4.32,0.388,4,Bike,Clear,29.6
+318,Kondapur,6,5,6.87,0.315,1,Truck,Clear,39.2
+319,Ameerpet,20,3,6.71,0.833,4,Van,Clear,65.0
+320,Gachibowli,11,0,17.63,0.265,6,Bike,Cloudy,101.4
+321,LB Nagar,13,1,15.56,0.621,6,Van,Clear,120.0
+322,Gachibowli,10,6,12.92,0.718,2,Truck,Clear,
+323,Kondapur,9,2,13.36,0.837,3,Bike,Cloudy,120.0
+324,Banjara Hills,7,0,10.56,0.211,2,Van,Clear,60.0
+325,Banjara Hills,11,4,17.1,0.253,1,Truck,Rain,106.4
+326,Jubilee Hills,11,6,9.44,,4,Truck,Cloudy,59.0
+327,Attapur,16,4,7.47,0.269,3,Truck,Clear,48.1
+328,Ameerpet,20,6,3.77,0.855,7,Van,Clear,41.7
+329,Kukatpally,21,2,14.37,0.114,5,Bike,Clear,66.3
+330,Tolichowki,21,3,13.49,0.325,6,Bike,Cloudy,88.5
+331,Tolichowki,6,5,7.53,0.315,3,Bike,Clear,48.2
+332,Dilsukhnagar,14,3,1.43,0.716,7,Bike,Clear,12.4
+333,Secunderabad,17,0,15.26,0.819,3,Bike,Clear,120.0
+334,Kondapur,16,3,1.19,0.272,2,Bike,Clear,5.0
+335,Jubilee Hills,11,2,12.96,0.275,7,Bike,Clear,83.7
+336,Kukatpally,21,0,17.49,0.408,5,Bike,Cloudy,120.0
+337,Tolichowki,18,1,8.44,0.84,6,Van,Clear,87.2
+338,Ameerpet,8,3,4.99,0.828,1,Bike,Rain,47.4
+339,Uppal,9,3,12.98,0.861,1,Van,Cloudy,120.0
+340,Kukatpally,17,5,14.89,0.869,3,Van,Clear,120.0
+341,Attapur,16,0,10.29,0.205,7,Bike,Clear,52.3
+342,Kukatpally,9,4,17.44,0.819,3,Truck,Clear,120.0
+343,Uppal,8,3,1.88,0.907,4,Van,Cloudy,19.9
+344,Tolichowki,15,2,9.58,0.147,5,Bike,Clear,48.8
+345,Attapur,8,3,13.21,0.813,6,Bike,Rain,120.0
+346,Kondapur,20,5,15.66,0.78,3,Bike,Cloudy,120.0
+347,Jubilee Hills,8,1,4.05,0.92,4,Bike,Clear,45.1
+348,Madhapur,9,5,14.6,0.648,7,Bike,Cloudy,120.0
+349,Gachibowli,21,3,10.4,0.194,5,Van,Clear,
+350,Dilsukhnagar,12,4,7.74,0.538,6,Truck,Cloudy,60.1
+351,Jubilee Hills,9,6,3.24,0.957,1,Van,Clear,38.8
+352,Uppal,14,3,15.71,0.493,4,Bike,Clear,120.0
+353,Secunderabad,6,0,3.67,0.194,7,Bike,Clear,15.7
+354,Kukatpally,13,3,6.27,0.688,5,Bike,Rain,57.2
+355,Madhapur,21,4,5.93,0.105,4,Bike,Clear,22.3
+356,Uppal,12,0,15.81,0.28,3,Bike,Rain,95.3
+357,Kondapur,7,2,12.44,0.294,2,Van,Clear,81.8
+358,Hitech City,13,0,14.54,0.45,1,Bike,Clear,102.4
+359,Uppal,6,5,5.26,0.148,3,Van,Clear,24.1
+360,Tolichowki,16,1,11.62,0.321,3,Bike,Clear,75.6
+361,Tolichowki,17,5,10.72,0.874,7,Truck,Clear,105.7
+362,Dilsukhnagar,14,6,15.16,0.444,7,Van,Clear,107.1
+363,Dilsukhnagar,14,0,16.4,0.372,5,Van,Cloudy,111.3
+364,Gachibowli,7,2,1.21,0.337,7,Bike,Clear,5.9
+365,Hitech City,12,3,12.46,0.565,4,Truck,Clear,99.8
+366,Uppal,20,0,1.88,0.84,1,Van,Clear,21.1
+367,LB Nagar,19,5,10.33,1.0,3,Van,Cloudy,117.0
+368,Ameerpet,15,0,5.89,0.143,5,Van,Clear,30.4
+369,Hitech City,8,0,6.22,0.647,1,Van,Clear,52.8
+370,Kukatpally,12,0,7.0,0.431,7,Bike,Clear,
+371,Kukatpally,17,2,11.56,0.845,7,Van,Cloudy,116.3
+372,Kukatpally,21,4,6.68,0.274,4,Van,Cloudy,41.3
+373,Mehdipatnam,15,4,13.46,0.226,7,Bike,Clear,74.2
+374,Kukatpally,21,0,7.88,0.285,3,Bike,Clear,47.1
+375,Attapur,14,2,2.16,0.375,6,Bike,Rain,11.5
+376,Jubilee Hills,9,2,14.32,0.944,3,Van,Rain,120.0
+377,Dilsukhnagar,17,6,5.86,0.842,3,Bike,Cloudy,56.5
+378,Hitech City,6,0,8.36,0.362,7,Bike,Rain,51.9
+379,Dilsukhnagar,7,5,12.65,0.284,1,Bike,Cloudy,77.3
+380,Secunderabad,6,5,6.65,0.296,7,Van,Cloudy,41.4
+381,Hitech City,21,1,1.96,0.307,1,Bike,Clear,14.5
+382,Jubilee Hills,19,0,7.36,0.895,1,Van,Clear,75.5
+383,Secunderabad,17,1,17.06,0.914,1,Bike,Clear,120.0
+384,Mehdipatnam,10,5,11.91,0.933,5,Van,Cloudy,120.0
+385,Dilsukhnagar,10,5,12.42,0.82,2,Truck,Rain,120.0
+386,Secunderabad,21,0,11.75,0.321,7,Bike,Cloudy,71.7
+387,Gachibowli,16,1,4.38,0.241,5,Bike,Clear,25.6
+388,Attapur,12,1,,0.644,3,Van,Clear,71.2
+389,Uppal,14,0,13.77,0.432,5,Bike,Clear,97.9
+390,Secunderabad,14,6,2.72,0.68,4,Bike,Clear,18.0
+391,Hitech City,8,1,5.72,0.796,6,Van,Cloudy,56.2
+392,Kukatpally,8,6,5.7,0.657,1,Truck,Rain,56.4
+393,Kukatpally,21,3,8.34,0.263,7,Van,Clear,48.1
+394,Tolichowki,21,5,17.67,0.182,4,Bike,Clear,91.6
+395,LB Nagar,8,4,,0.884,7,Bike,Cloudy,23.4
+396,Ameerpet,9,6,9.82,,6,Bike,Clear,92.1
+397,Dilsukhnagar,13,6,4.05,0.455,4,Van,Rain,33.1
+398,Tolichowki,11,6,17.5,0.061,7,Van,Clear,73.9
+399,Gachibowli,13,2,2.93,0.455,3,Truck,Clear,23.5
+400,Hitech City,6,1,7.86,0.008,1,Bike,Clear,33.6
+401,Hitech City,13,1,13.54,0.342,4,Van,Clear,87.1
+402,Tolichowki,9,2,12.98,0.876,3,Bike,Clear,120.0
+403,Uppal,16,1,8.19,0.329,1,Bike,Clear,55.2
+404,Kondapur,6,2,6.89,0.293,2,Van,Clear,44.7
+405,LB Nagar,13,6,,0.403,3,Bike,Clear,50.1
+406,Tolichowki,9,0,5.49,0.795,5,Van,Clear,55.9
+407,Attapur,11,3,4.49,0.25,7,Van,Clear,25.8
+408,Banjara Hills,13,6,9.21,0.384,1,Truck,Clear,62.5
+409,Dilsukhnagar,9,3,5.57,0.95,4,Van,Cloudy,60.6
+410,Hitech City,19,5,5.89,0.938,6,Van,Rain,62.8
+411,Attapur,8,6,12.16,0.778,4,Van,Clear,120.0
+412,Madhapur,21,4,17.47,0.253,5,Bike,Clear,101.4
+413,Hitech City,19,1,11.26,0.871,7,Bike,Clear,112.3
+414,Kondapur,14,4,2.31,0.296,5,Van,Clear,13.0
+415,Secunderabad,8,0,2.28,0.775,4,Van,Cloudy,22.4
+416,Jubilee Hills,14,3,17.17,0.432,7,Van,Cloudy,120.0
+417,LB Nagar,18,6,6.05,0.75,6,Bike,Cloudy,58.7
+418,Jubilee Hills,7,0,2.57,0.222,1,Bike,Clear,11.8
+419,Uppal,21,0,11.18,0.43,7,Bike,Clear,86.8
+420,Madhapur,19,1,11.6,0.914,3,Van,Rain,120.0
+421,Madhapur,7,0,12.02,,7,Van,Clear,68.6
+422,LB Nagar,7,6,5.55,0.307,5,Van,Clear,34.0
+423,LB Nagar,11,6,1.26,0.39,5,Bike,Rain,10.2
+424,Ameerpet,8,3,17.41,0.892,5,Bike,Cloudy,120.0
+425,Uppal,21,6,5.27,0.256,6,Van,Cloudy,34.4
+426,Mehdipatnam,18,4,12.49,0.785,7,Van,Clear,120.0
+427,LB Nagar,14,3,13.01,0.57,7,Bike,Clear,108.1
+428,Attapur,9,1,11.37,0.839,2,Van,Clear,113.2
+429,Jubilee Hills,6,3,6.32,0.34,6,Bike,Cloudy,39.0
+430,Secunderabad,9,2,5.61,0.864,1,Van,Clear,58.3
+431,Tolichowki,6,4,11.16,0.355,1,Van,Cloudy,76.0
+432,Jubilee Hills,19,2,15.72,0.796,1,Van,Cloudy,120.0
+433,Mehdipatnam,10,2,17.09,,1,Van,Clear,120.0
+434,Banjara Hills,21,5,2.8,0.27,1,Bike,Clear,21.0
+435,Dilsukhnagar,9,6,3.63,1.0,4,Van,Clear,37.9
+436,Jubilee Hills,13,1,17.06,0.431,5,Van,Cloudy,118.7
+437,Uppal,21,0,13.52,0.424,6,Van,Cloudy,94.9
+438,Kukatpally,13,2,16.01,0.52,4,Van,Cloudy,120.0
+439,Ameerpet,12,3,4.44,0.435,6,Bike,Clear,30.1
+440,Kondapur,8,0,10.99,0.752,2,Truck,Clear,107.5
+441,Madhapur,6,3,12.92,0.218,7,Van,Cloudy,73.2
+442,Uppal,21,3,12.56,0.292,3,Bike,Clear,76.8
+443,Banjara Hills,6,0,7.94,0.302,5,Van,Cloudy,44.7
+444,Tolichowki,21,0,1.26,0.193,2,Bike,Cloudy,5.0
+445,Madhapur,17,6,10.91,0.848,4,Bike,Clear,111.1
+446,Uppal,16,3,5.3,0.464,3,Bike,Clear,32.5
+447,Tolichowki,8,1,8.65,0.973,7,Van,Clear,98.3
+448,Ameerpet,11,6,17.28,0.294,2,Truck,Clear,105.2
+449,Mehdipatnam,12,4,7.78,0.504,7,Van,Cloudy,69.1
+450,Hitech City,11,5,15.28,0.262,7,Van,Cloudy,96.8
+451,LB Nagar,19,4,4.21,0.911,6,Bike,Rain,43.9
+452,Banjara Hills,19,1,12.43,0.748,3,Bike,Cloudy,116.3
+453,LB Nagar,11,6,17.61,0.224,6,Bike,Clear,101.9
+454,Gachibowli,11,5,2.73,0.083,7,Van,Clear,17.7
+455,Banjara Hills,18,6,1.14,0.89,2,Truck,Cloudy,7.0
+456,Attapur,8,0,8.37,0.865,7,Bike,Clear,80.2
+457,Ameerpet,11,5,2.57,0.202,4,Van,Cloudy,12.2
+458,Kondapur,13,3,13.72,0.657,7,Truck,Cloudy,120.0
+459,Banjara Hills,16,4,16.55,0.127,6,Bike,Clear,82.9
+460,Attapur,16,5,8.38,0.104,3,Van,Clear,43.0
+461,Ameerpet,7,3,5.4,0.272,2,Van,Clear,28.6
+462,Secunderabad,10,6,8.38,0.905,6,Van,Rain,81.2
+463,Dilsukhnagar,19,1,13.3,1.0,7,Bike,Clear,120.0
+464,Jubilee Hills,6,5,1.15,0.204,4,Van,Rain,5.0
+465,Secunderabad,17,3,11.02,0.958,5,Van,Clear,114.0
+466,Ameerpet,20,6,11.43,0.846,4,Bike,Rain,115.7
+467,Kukatpally,21,6,11.84,0.233,7,Van,Clear,69.6
+468,Hitech City,6,6,5.11,0.338,4,Bike,Clear,32.6
+469,Jubilee Hills,10,1,13.14,0.865,5,Truck,Cloudy,120.0
+470,Kukatpally,17,0,2.55,0.692,4,Van,Rain,22.5
+471,Tolichowki,18,1,4.39,,5,Van,Clear,48.0
+472,Kondapur,21,1,15.92,0.388,7,Bike,Cloudy,104.1
+473,Madhapur,8,4,13.56,0.737,5,Bike,Rain,120.0
+474,Gachibowli,9,6,1.23,0.84,6,Bike,Clear,14.0
+475,Jubilee Hills,8,3,5.22,0.849,6,Bike,Clear,53.8
+476,Secunderabad,21,5,4.64,0.276,5,Bike,Rain,28.3
+477,Hitech City,6,4,5.6,0.195,2,Van,Clear,27.3
+478,Uppal,21,6,5.21,0.183,3,Bike,Clear,27.1
+479,Attapur,6,2,2.06,0.247,2,Van,Cloudy,5.4
+480,Kukatpally,17,1,8.8,0.967,5,Bike,Clear,97.0
+481,Attapur,17,2,13.46,0.904,3,Van,Clear,120.0
+482,Ameerpet,19,6,11.31,0.813,6,Van,Rain,107.1
+483,Jubilee Hills,18,4,12.44,0.927,3,Van,Clear,120.0
+484,Attapur,19,3,2.38,0.565,5,Truck,Cloudy,20.2
+485,Madhapur,10,4,17.18,0.915,6,Bike,Cloudy,120.0
+486,LB Nagar,11,3,15.25,0.076,3,Bike,Clear,68.0
+487,Ameerpet,8,3,14.69,0.764,3,Bike,Clear,
+488,Kukatpally,17,6,14.99,,2,Bike,Clear,120.0
+489,LB Nagar,14,0,16.86,0.371,3,Van,Clear,112.7
+490,Hitech City,10,6,10.25,0.916,7,Bike,Cloudy,114.8
+491,Banjara Hills,13,1,4.4,0.453,5,Van,Cloudy,32.8
+492,Attapur,18,4,11.49,0.885,1,Bike,Clear,119.0
+493,Madhapur,6,3,13.63,0.245,1,Truck,Clear,79.6
+494,Ameerpet,19,6,13.54,0.898,1,Truck,Clear,120.0
+495,Madhapur,10,6,9.86,0.808,5,Bike,Clear,94.4
+496,Kondapur,20,4,2.16,0.722,1,Bike,Clear,22.4
+497,LB Nagar,8,4,7.31,0.9,2,Van,Clear,77.3
+498,Uppal,17,3,16.65,0.801,5,Truck,Cloudy,120.0
+499,Ameerpet,6,5,10.94,0.094,7,Bike,Clear,48.2
+500,Jubilee Hills,9,2,10.15,0.757,6,Bike,Clear,99.9
+501,Tolichowki,20,1,5.57,1.0,7,Truck,Cloudy,64.4
+502,Uppal,18,1,7.26,0.935,5,Van,Clear,76.3
+503,Tolichowki,10,5,16.22,,5,Bike,Clear,120.0
+504,Banjara Hills,21,0,12.33,0.215,3,Van,Clear,
+505,Banjara Hills,12,5,14.39,0.468,3,Truck,Clear,103.7
+506,Tolichowki,6,0,8.72,0.458,3,Van,Clear,61.4
+507,Attapur,21,0,11.71,0.288,4,Van,Rain,65.9
+508,Gachibowli,8,5,5.22,0.843,2,Van,Clear,54.0
+509,Madhapur,21,1,12.99,0.353,5,Bike,Rain,79.5
+510,Mehdipatnam,7,2,8.27,0.274,7,Van,Clear,45.7
+511,Secunderabad,14,1,8.52,0.474,5,Bike,Clear,57.0
+512,Banjara Hills,15,6,12.04,0.23,3,Truck,Clear,67.9
+513,Uppal,20,1,16.92,0.843,5,Bike,Clear,120.0
+514,Banjara Hills,11,1,2.09,0.246,6,Truck,Clear,11.1
+515,Mehdipatnam,15,5,15.02,0.323,5,Bike,Clear,91.9
+516,Mehdipatnam,8,5,5.97,0.805,7,Van,Clear,55.0
+517,Kondapur,13,6,8.55,0.573,1,Bike,Clear,70.9
+518,Dilsukhnagar,19,6,1.37,0.842,6,Van,Clear,12.2
+519,Kondapur,13,5,6.12,0.508,6,Van,Clear,47.8
+520,Kondapur,7,1,9.54,0.05,5,Van,Clear,39.0
+521,Dilsukhnagar,21,2,1.95,0.342,4,Van,Cloudy,13.2
+522,Madhapur,20,0,9.35,0.885,3,Bike,Rain,100.9
+523,Ameerpet,11,4,16.76,0.35,2,Truck,Clear,111.0
+524,Hitech City,12,0,2.79,0.21,2,Van,Clear,14.2
+525,Secunderabad,7,6,14.0,0.459,1,Van,Clear,103.0
+526,Mehdipatnam,20,6,7.96,0.836,2,Van,Rain,79.1
+527,Banjara Hills,16,0,12.14,0.361,2,Van,Clear,80.1
+528,Gachibowli,15,4,5.42,0.146,3,Bike,Cloudy,26.4
+529,Secunderabad,7,1,3.71,0.311,3,Van,Clear,22.7
+530,Tolichowki,15,2,3.73,0.145,4,Van,Clear,19.4
+531,Attapur,6,2,2.2,0.188,7,Truck,Clear,8.8
+532,Ameerpet,13,0,4.16,0.691,1,Van,Clear,34.3
+533,Dilsukhnagar,6,4,,0.231,2,Bike,Rain,65.4
+534,Secunderabad,14,6,15.99,0.522,4,Bike,Clear,119.2
+535,Banjara Hills,16,3,14.84,0.337,1,Bike,Clear,91.7
+536,Secunderabad,11,1,12.65,0.3,6,Bike,Clear,78.3
+537,Hitech City,21,0,2.88,0.265,2,Van,Cloudy,14.3
+538,LB Nagar,12,2,5.92,0.536,2,Truck,Clear,48.1
+539,Uppal,18,6,6.27,1.0,3,Bike,Clear,70.3
+540,Dilsukhnagar,15,5,5.25,0.244,5,Bike,Clear,24.3
+541,Secunderabad,12,5,9.76,0.52,1,Truck,Clear,77.5
+542,Banjara Hills,15,4,10.1,0.355,2,Van,Cloudy,68.7
+543,Banjara Hills,8,4,7.07,0.911,1,Van,Clear,71.6
+544,Secunderabad,7,0,7.01,0.369,7,Van,Clear,47.9
+545,LB Nagar,14,3,15.09,0.564,4,Van,Clear,119.0
+546,Attapur,13,2,14.42,,4,Bike,Rain,98.0
+547,Madhapur,18,0,6.23,1.0,5,Bike,Clear,66.0
+548,Gachibowli,17,3,16.53,0.735,2,Bike,Clear,120.0
+549,Kukatpally,15,6,17.2,0.28,7,Bike,Rain,102.3
+550,Kondapur,12,4,6.55,0.425,3,Truck,Clear,45.9
+551,Dilsukhnagar,14,5,7.03,0.494,2,Van,Rain,51.9
+552,Attapur,9,1,9.6,0.833,1,Bike,Clear,92.4
+553,Kukatpally,18,6,17.0,0.882,6,Bike,Clear,120.0
+554,Ameerpet,9,5,15.9,0.842,4,Bike,Cloudy,120.0
+555,Ameerpet,6,2,2.74,0.411,1,Van,Rain,19.0
+556,Banjara Hills,13,2,7.68,0.545,5,Van,Clear,61.4
+557,Ameerpet,21,5,10.41,0.226,4,Bike,Rain,56.5
+558,Madhapur,19,6,9.55,0.946,3,Bike,Clear,106.8
+559,Gachibowli,21,5,4.3,0.369,4,Van,Cloudy,25.1
+560,Mehdipatnam,19,3,15.6,0.727,6,Van,Clear,120.0
+561,Attapur,17,0,12.51,0.91,7,Bike,Clear,120.0
+562,Uppal,8,4,15.24,0.87,2,Van,Rain,120.0
+563,Ameerpet,12,3,15.6,0.47,6,Van,Rain,114.6
+564,Hitech City,20,1,13.72,0.988,7,Bike,Clear,120.0
+565,Mehdipatnam,17,5,8.47,0.835,6,Bike,Clear,87.9
+566,Gachibowli,7,1,11.38,0.263,2,Bike,Clear,62.8
+567,Tolichowki,7,1,3.73,0.233,4,Truck,Clear,18.2
+568,Madhapur,21,3,12.45,0.252,5,Truck,Clear,71.2
+569,LB Nagar,12,4,4.05,0.39,2,Truck,Clear,31.3
+570,Kukatpally,20,6,12.8,0.706,2,Van,Clear,117.4
+571,Gachibowli,11,2,4.9,0.409,7,Van,Cloudy,31.2
+572,Gachibowli,8,0,3.0,0.715,3,Van,Clear,26.5
+573,Kukatpally,14,2,3.81,0.401,4,Truck,Clear,24.4
+574,Madhapur,15,4,1.03,0.035,2,Bike,Clear,5.0
+575,Mehdipatnam,20,2,13.22,0.786,5,Van,Cloudy,120.0
+576,LB Nagar,19,5,,0.718,1,Van,Clear,119.2
+577,Ameerpet,18,5,9.75,1.0,4,Van,Clear,114.1
+578,Banjara Hills,11,3,3.74,0.351,3,Bike,Cloudy,26.9
+579,Dilsukhnagar,15,1,2.42,0.181,6,Van,Cloudy,16.1
+580,Mehdipatnam,15,4,1.33,0.475,2,Van,Cloudy,8.4
+581,LB Nagar,11,4,3.82,0.348,5,Bike,Rain,24.4
+582,Kukatpally,6,2,16.14,0.218,4,Van,Cloudy,85.6
+583,Uppal,9,3,5.11,0.55,5,Bike,Cloudy,39.1
+584,Kukatpally,15,2,7.02,0.479,5,Truck,Clear,53.8
+585,LB Nagar,11,2,2.79,0.111,7,Van,Clear,17.3
+586,Kukatpally,20,4,4.78,0.685,6,Van,Clear,39.4
+587,Kukatpally,11,2,9.83,0.352,3,Bike,Clear,63.1
+588,Dilsukhnagar,16,1,11.33,0.494,4,Bike,Clear,85.2
+589,Attapur,17,2,5.17,0.988,2,Van,Clear,53.3
+590,Dilsukhnagar,10,1,1.98,0.856,3,Bike,Cloudy,21.9
+591,Ameerpet,6,4,7.65,0.309,2,Van,Clear,45.5
+592,Secunderabad,13,3,4.98,0.585,1,Bike,Clear,40.3
+593,Secunderabad,10,5,4.73,0.876,5,Van,Rain,47.4
+594,Jubilee Hills,17,1,17.32,0.878,1,Van,Clear,120.0
+595,Mehdipatnam,17,3,11.48,0.86,7,Bike,Clear,117.0
+596,Mehdipatnam,17,3,10.47,0.844,5,Van,Clear,104.8
+597,Kukatpally,10,1,8.07,0.725,6,Van,Rain,73.2
+598,Kukatpally,12,4,8.29,0.472,3,Van,Clear,59.2
+599,Gachibowli,9,0,10.2,0.631,2,Bike,Cloudy,88.0
+600,Secunderabad,11,3,12.84,0.24,7,Van,Clear,78.5
+601,Ameerpet,18,3,12.94,0.751,6,Bike,Clear,120.0
+602,Uppal,21,4,3.92,0.14,2,Bike,Clear,22.6
+603,Banjara Hills,9,4,9.5,0.818,3,Bike,Cloudy,89.8
+604,Jubilee Hills,19,2,8.0,0.989,4,Van,Cloudy,89.5
+605,Mehdipatnam,20,4,15.8,0.942,7,Bike,Cloudy,120.0
+606,Tolichowki,8,3,11.73,0.643,1,Truck,Cloudy,96.8
+607,Mehdipatnam,12,1,,0.401,1,Bike,Clear,67.0
+608,Jubilee Hills,13,0,2.96,0.594,2,Bike,Cloudy,28.1
+609,Uppal,9,6,11.3,0.702,2,Bike,Clear,105.1
+610,Uppal,21,2,2.99,0.228,2,Bike,Cloudy,17.6
+611,LB Nagar,18,6,6.73,,7,Van,Clear,66.2
+612,Tolichowki,7,1,3.43,0.153,3,Bike,Clear,16.9
+613,Tolichowki,17,0,12.77,0.861,4,Bike,Clear,120.0
+614,Ameerpet,15,0,4.51,0.117,1,Bike,Clear,22.3
+615,Tolichowki,19,0,7.66,0.79,6,Bike,Clear,68.7
+616,Banjara Hills,8,5,16.23,0.832,5,Bike,Cloudy,120.0
+617,Gachibowli,6,1,4.47,0.091,7,Van,Clear,20.6
+618,Dilsukhnagar,13,2,9.63,0.544,7,Van,Clear,77.9
+619,Uppal,20,2,8.13,0.848,3,Van,Cloudy,75.5
+620,Kondapur,8,0,1.31,0.855,1,Van,Clear,12.8
+621,Secunderabad,17,1,14.48,0.872,4,Van,Cloudy,120.0
+622,Kukatpally,15,5,2.17,0.386,3,Truck,Clear,17.3
+623,Ameerpet,12,0,9.06,0.513,6,Bike,Rain,71.8
+624,Attapur,15,4,10.53,0.207,1,Bike,Clear,59.6
+625,LB Nagar,10,6,11.68,0.812,3,Bike,Clear,112.7
+626,Secunderabad,15,2,12.71,0.304,1,Bike,Clear,72.9
+627,Mehdipatnam,10,6,5.31,0.805,1,Bike,Clear,50.8
+628,Kukatpally,19,3,1.17,0.854,7,Van,Rain,14.9
+629,Kondapur,12,0,13.3,0.43,4,Bike,Clear,98.5
+630,Mehdipatnam,20,4,10.11,0.784,7,Truck,Clear,99.6
+631,Tolichowki,14,2,,0.36,5,Bike,Clear,101.6
+632,Kondapur,17,6,14.96,1.0,4,Bike,Cloudy,120.0
+633,Dilsukhnagar,10,5,15.34,0.676,1,Truck,Clear,120.0
+634,LB Nagar,6,1,9.25,0.181,3,Van,Rain,48.6
+635,Madhapur,15,2,6.67,0.178,6,Bike,Clear,40.3
+636,Kondapur,15,6,14.46,0.339,4,Van,Clear,90.3
+637,Mehdipatnam,6,1,8.67,0.221,5,Van,Clear,53.3
+638,Uppal,20,6,4.12,0.975,1,Bike,Cloudy,44.4
+639,LB Nagar,7,1,15.53,0.183,6,Bike,Rain,86.5
+640,Secunderabad,21,5,16.0,0.278,4,Van,Clear,91.8
+641,Hitech City,19,5,8.93,0.766,7,Van,Clear,86.7
+642,Hitech City,11,0,2.29,0.465,7,Bike,Cloudy,14.6
+643,Tolichowki,21,0,7.59,0.131,4,Van,Clear,33.3
+644,Kukatpally,14,2,14.66,0.531,4,Bike,Clear,115.3
+645,Kukatpally,13,5,16.33,0.563,4,Truck,Clear,
+646,Madhapur,18,4,4.46,0.891,6,Bike,Clear,
+647,Hitech City,10,6,2.14,0.781,7,Truck,Clear,16.1
+648,Attapur,6,6,15.91,0.237,3,Van,Clear,90.5
+649,Mehdipatnam,21,6,7.62,0.254,5,Bike,Clear,44.2
+650,Kukatpally,18,2,10.21,0.835,5,Bike,Cloudy,103.9
+651,Kondapur,12,6,17.46,0.596,1,Van,Clear,120.0
+652,Kukatpally,21,3,2.13,0.471,2,Truck,Cloudy,15.6
+653,Jubilee Hills,20,1,12.02,0.794,3,Bike,Clear,120.0
+654,Madhapur,10,6,2.26,0.663,7,Bike,Cloudy,20.5
+655,Attapur,11,1,,0.241,1,Van,Clear,41.3
+656,Ameerpet,18,0,14.66,1.0,1,Van,Cloudy,120.0
+657,Banjara Hills,12,6,8.37,0.42,4,Bike,Clear,58.0
+658,Gachibowli,8,4,17.95,0.964,2,Van,Rain,120.0
+659,LB Nagar,17,5,10.5,1.0,7,Van,Clear,120.0
+660,Banjara Hills,15,5,6.46,0.195,2,Bike,Clear,36.3
+661,Attapur,21,0,4.74,,3,Bike,Rain,25.9
+662,Banjara Hills,8,3,6.96,0.963,2,Bike,Clear,76.6
+663,Dilsukhnagar,10,2,7.33,0.762,1,Van,Clear,71.6
+664,Uppal,11,2,2.17,0.23,2,Van,Rain,16.8
+665,Attapur,14,4,7.28,0.442,2,Van,Clear,55.0
+666,Attapur,18,0,8.89,0.749,5,Bike,Clear,85.8
+667,LB Nagar,19,0,13.29,0.785,7,Bike,Rain,120.0
+668,Ameerpet,17,3,12.16,0.728,7,Van,Clear,113.5
+669,Kukatpally,10,6,13.05,0.803,1,Bike,Rain,120.0
+670,Uppal,20,2,1.14,0.773,6,Van,Clear,6.9
+671,Dilsukhnagar,6,6,4.7,0.273,2,Van,Cloudy,27.0
+672,Mehdipatnam,19,0,12.25,0.694,2,Bike,Clear,
+673,Banjara Hills,19,6,9.23,0.883,4,Bike,Rain,96.7
+674,LB Nagar,19,5,1.09,0.933,7,Bike,Clear,15.4
+675,Attapur,9,4,14.68,0.601,2,Bike,Clear,120.0
+676,Mehdipatnam,10,2,14.14,0.837,7,Van,Cloudy,120.0
+677,Jubilee Hills,17,3,10.32,0.973,2,Bike,Clear,112.4
+678,Gachibowli,21,4,2.13,0.129,5,Bike,Cloudy,13.2
+679,Banjara Hills,15,1,14.03,0.417,1,Van,Rain,99.9
+680,Hitech City,15,5,10.92,0.292,7,Bike,Clear,67.9
+681,Ameerpet,21,3,14.29,0.179,3,Van,Cloudy,74.8
+682,Ameerpet,10,4,13.78,0.794,1,Bike,Clear,120.0
+683,Ameerpet,12,0,14.65,0.556,4,Bike,Clear,118.8
+684,Madhapur,9,1,9.81,0.808,1,Bike,Clear,93.7
+685,Madhapur,6,3,3.39,0.304,2,Bike,Cloudy,27.5
+686,Kondapur,19,0,12.41,0.758,4,Van,Clear,119.1
+687,Mehdipatnam,19,5,11.55,0.867,1,Van,Cloudy,116.5
+688,Secunderabad,10,1,13.62,0.659,4,Bike,Clear,117.2
+689,Gachibowli,12,2,3.89,0.489,3,Bike,Cloudy,29.0
+690,Dilsukhnagar,15,0,4.31,0.16,1,Bike,Clear,21.5
+691,Tolichowki,15,4,16.14,0.176,7,Bike,Cloudy,88.4
+692,Uppal,11,6,13.75,0.374,7,Bike,Clear,92.5
+693,Uppal,10,3,16.44,,6,Van,Clear,120.0
+694,Uppal,9,1,13.9,0.861,2,Van,Clear,120.0
+695,Kukatpally,7,0,11.15,0.141,4,Bike,Cloudy,56.1
+696,Banjara Hills,9,2,12.12,0.768,6,Van,Clear,117.8
+697,Tolichowki,20,6,16.12,0.971,6,Truck,Cloudy,120.0
+698,Secunderabad,15,3,10.84,,5,Bike,Clear,65.1
+699,Kukatpally,15,3,11.75,0.482,4,Van,Cloudy,88.7
+700,Dilsukhnagar,8,0,3.66,0.839,6,Van,Clear,31.1
+701,Uppal,15,2,9.06,0.269,5,Bike,Clear,59.8
+702,Secunderabad,21,5,13.18,0.219,6,Truck,Clear,77.4
+703,Kukatpally,6,6,5.61,0.263,2,Bike,Clear,31.9
+704,Jubilee Hills,13,5,4.44,0.485,3,Bike,Clear,29.9
+705,Tolichowki,10,1,6.34,0.871,5,Van,Rain,66.1
+706,Madhapur,18,0,5.11,0.946,3,Bike,Rain,55.4
+707,Dilsukhnagar,9,6,4.65,0.721,4,Bike,Cloudy,43.9
+708,Uppal,21,1,8.22,0.117,2,Bike,Clear,40.4
+709,LB Nagar,13,5,16.43,0.316,5,Van,Clear,104.7
+710,Gachibowli,21,6,9.62,0.301,4,Van,Cloudy,63.7
+711,Hitech City,12,3,4.19,0.39,6,Van,Clear,30.3
+712,Jubilee Hills,7,1,,0.035,7,Truck,Rain,6.7
+713,Madhapur,6,2,12.83,0.289,1,Bike,Clear,82.1
+714,Ameerpet,17,4,7.51,1.0,4,Bike,Rain,89.0
+715,Madhapur,21,5,14.97,0.249,3,Van,Clear,96.2
+716,Secunderabad,21,5,12.21,0.334,2,Van,Cloudy,74.8
+717,Attapur,16,2,14.54,0.258,2,Bike,Clear,85.9
+718,Kondapur,9,6,5.62,0.79,4,Bike,Rain,48.2
+719,Jubilee Hills,13,6,12.77,0.592,6,Van,Clear,107.2
+720,Ameerpet,17,6,5.49,0.821,1,Truck,Cloudy,52.8
+721,Secunderabad,7,1,16.96,0.277,3,Van,Cloudy,107.4
+722,Attapur,8,0,11.82,0.832,4,Bike,Clear,115.8
+723,Dilsukhnagar,17,3,6.52,0.783,4,Truck,Clear,57.7
+724,Gachibowli,6,4,5.58,0.349,7,Truck,Clear,34.9
+725,Madhapur,6,0,4.25,0.233,2,Van,Clear,18.2
+726,Tolichowki,18,0,12.81,0.774,3,Van,Clear,120.0
+727,LB Nagar,8,2,4.72,0.854,1,Van,Clear,41.7
+728,Dilsukhnagar,16,1,11.12,0.16,2,Truck,Clear,57.4
+729,Ameerpet,10,5,5.5,0.803,4,Van,Cloudy,47.5
+730,Secunderabad,17,5,12.25,0.849,2,Van,Cloudy,120.0
+731,Uppal,8,2,14.85,0.909,2,Van,Clear,120.0
+732,Kondapur,6,1,14.23,0.297,5,Bike,Rain,88.5
+733,Uppal,6,2,13.93,0.247,2,Van,Rain,78.0
+734,Madhapur,13,5,4.19,0.582,6,Van,Clear,34.2
+735,LB Nagar,15,0,2.5,0.389,2,Truck,Clear,17.1
+736,Gachibowli,16,3,12.88,0.306,6,Bike,Clear,81.3
+737,Kondapur,17,6,7.26,0.851,3,Van,Cloudy,69.4
+738,Kukatpally,18,1,8.35,0.719,2,Bike,Cloudy,78.4
+739,Secunderabad,18,4,1.53,0.743,1,Van,Clear,6.2
+740,Dilsukhnagar,17,4,5.41,0.819,6,Van,Cloudy,51.7
+741,LB Nagar,20,0,1.57,0.789,6,Bike,Clear,13.8
+742,Mehdipatnam,19,2,15.95,0.831,4,Van,Clear,120.0
+743,Madhapur,7,2,5.14,0.256,3,Bike,Cloudy,30.1
+744,Attapur,18,5,10.47,0.903,2,Bike,Cloudy,105.8
+745,Madhapur,8,0,1.66,0.793,7,Van,Clear,13.2
+746,Ameerpet,7,5,,0.299,1,Bike,Clear,76.5
+747,LB Nagar,8,5,6.49,0.806,4,Bike,Rain,63.4
+748,Gachibowli,12,4,16.26,0.302,3,Bike,Clear,98.7
+749,Hitech City,6,5,16.1,0.156,6,Bike,Cloudy,81.0
+750,Attapur,15,6,6.53,0.236,1,Van,Clear,39.3
+751,Kukatpally,13,5,16.32,0.379,2,Bike,Clear,108.2
+752,Kondapur,18,4,17.93,0.91,7,Truck,Clear,120.0
+753,Jubilee Hills,15,6,15.03,0.403,5,Bike,Clear,110.3
+754,Jubilee Hills,15,2,15.36,,5,Bike,Cloudy,98.3
+755,LB Nagar,15,1,5.23,0.229,3,Bike,Clear,24.0
+756,Madhapur,19,3,10.8,0.999,7,Van,Clear,120.0
+757,Ameerpet,7,5,2.14,0.265,1,Van,Clear,10.6
+758,Banjara Hills,8,6,2.61,0.766,4,Truck,Clear,23.9
+759,Tolichowki,14,1,17.98,0.439,1,Van,Rain,120.0
+760,LB Nagar,12,4,6.55,,7,Bike,Cloudy,47.6
+761,Madhapur,9,1,13.72,0.761,6,Van,Clear,
+762,Uppal,15,3,14.71,0.267,5,Truck,Cloudy,89.5
+763,Jubilee Hills,10,1,15.59,0.816,3,Bike,Cloudy,120.0
+764,Jubilee Hills,7,6,17.96,0.25,2,Bike,Cloudy,100.0
+765,Kukatpally,18,1,5.11,0.894,1,Van,Clear,49.8
+766,Dilsukhnagar,16,1,1.69,0.369,5,Bike,Clear,5.0
+767,Banjara Hills,18,1,7.99,,4,Truck,Clear,83.9
+768,Madhapur,13,0,3.21,0.352,3,Bike,Cloudy,23.8
+769,Attapur,9,5,1.38,0.545,2,Bike,Cloudy,12.5
+770,Kukatpally,14,4,7.13,0.593,1,Truck,Clear,
+771,Attapur,10,3,14.32,0.663,4,Van,Clear,120.0
+772,Ameerpet,18,4,10.63,0.828,2,Bike,Clear,103.7
+773,Kukatpally,14,0,6.32,0.383,6,Truck,Clear,43.3
+774,Madhapur,9,0,,0.62,5,Bike,Rain,104.9
+775,Secunderabad,15,6,4.94,0.304,6,Bike,Clear,25.8
+776,Mehdipatnam,10,0,1.24,0.876,5,Truck,Clear,13.7
+777,Hitech City,14,5,13.99,0.442,4,Van,Rain,103.3
+778,LB Nagar,13,0,11.6,0.241,6,Bike,Clear,65.3
+779,Madhapur,21,1,13.96,0.195,5,Bike,Cloudy,77.6
+780,Gachibowli,8,4,1.66,0.839,3,Van,Clear,25.1
+781,Jubilee Hills,6,2,15.23,0.102,4,Bike,Clear,
+782,Banjara Hills,8,3,11.53,0.818,5,Van,Clear,115.3
+783,Uppal,21,0,10.58,0.248,1,Van,Cloudy,59.0
+784,Uppal,9,4,,0.858,5,Bike,Clear,118.8
+785,Attapur,7,6,15.7,0.262,6,Van,Clear,93.8
+786,Banjara Hills,6,0,10.98,0.153,3,Truck,Cloudy,56.6
+787,LB Nagar,12,5,10.88,0.62,2,Bike,Clear,89.0
+788,Dilsukhnagar,21,0,,0.234,2,Bike,Clear,102.1
+789,Hitech City,13,0,13.86,0.497,5,Bike,Clear,109.5
+790,Gachibowli,12,0,8.52,0.407,2,Van,Clear,
+791,Jubilee Hills,19,6,13.03,0.806,5,Truck,Cloudy,120.0
+792,Mehdipatnam,21,0,7.62,,3,Bike,Cloudy,38.6
+793,Uppal,10,3,4.89,0.783,2,Bike,Rain,49.4
+794,LB Nagar,17,4,11.15,1.0,6,Bike,Cloudy,120.0
+795,LB Nagar,6,5,16.78,0.113,6,Van,Clear,77.9
+796,Attapur,12,0,16.8,0.339,1,Bike,Rain,109.1
+797,LB Nagar,18,0,6.81,0.997,5,Van,Clear,73.2
+798,Banjara Hills,12,0,9.97,0.479,2,Bike,Clear,72.4
+799,Gachibowli,14,0,4.6,0.433,6,Van,Clear,33.3
+800,Tolichowki,8,1,17.93,0.904,7,Van,Clear,120.0
+801,Kukatpally,14,1,17.68,0.439,3,Van,Cloudy,120.0
+802,Dilsukhnagar,19,2,12.04,1.0,3,Bike,Clear,120.0
+803,LB Nagar,6,0,14.68,0.318,7,Van,Clear,94.0
+804,Madhapur,6,2,13.16,0.201,7,Bike,Clear,69.6
+805,Madhapur,19,3,11.08,1.0,1,Bike,Clear,119.5
+806,LB Nagar,9,2,1.91,0.739,3,Van,Clear,17.3
+807,Secunderabad,21,4,8.73,0.324,3,Van,Cloudy,54.0
+808,Attapur,14,1,12.47,0.53,2,Bike,Clear,97.8
+809,Tolichowki,11,1,12.52,0.38,5,Bike,Cloudy,83.2
+810,Jubilee Hills,18,0,7.34,1.0,4,Van,Clear,76.2
+811,Gachibowli,16,0,,0.253,3,Van,Clear,97.9
+812,Kondapur,8,3,3.85,0.725,3,Bike,Cloudy,34.5
+813,Banjara Hills,6,5,9.51,0.296,4,Van,Cloudy,60.2
+814,Ameerpet,9,3,12.75,0.732,3,Bike,Clear,116.1
+815,Ameerpet,17,4,12.85,1.0,2,Van,Cloudy,120.0
+816,Madhapur,18,0,12.03,0.864,2,Truck,Rain,117.2
+817,Uppal,14,0,5.68,0.463,4,Bike,Rain,45.6
+818,Kondapur,8,3,3.66,0.818,6,Van,Cloudy,35.5
+819,Ameerpet,17,3,11.81,0.715,3,Bike,Cloudy,110.7
+820,Hitech City,14,3,11.19,0.403,6,Van,Clear,77.4
+821,Hitech City,12,1,4.05,0.62,3,Van,Cloudy,37.7
+822,Jubilee Hills,17,2,12.99,0.784,5,Truck,Clear,120.0
+823,Kondapur,19,2,8.74,0.745,3,Bike,Rain,78.5
+824,Hitech City,20,0,12.35,,2,Bike,Clear,120.0
+825,Hitech City,21,1,15.24,0.369,1,Bike,Clear,101.0
+826,Tolichowki,9,3,3.89,0.872,7,Truck,Clear,40.6
+827,Madhapur,8,0,1.33,0.9,1,Van,Clear,17.6
+828,Ameerpet,15,1,14.24,0.174,1,Van,Clear,71.8
+829,Jubilee Hills,20,4,11.36,0.708,1,Bike,Clear,105.2
+830,Gachibowli,21,5,12.89,,7,Truck,Cloudy,87.0
+831,LB Nagar,10,1,15.25,0.768,6,Van,Cloudy,120.0
+832,Kukatpally,10,6,14.65,0.775,7,Van,Clear,120.0
+833,Banjara Hills,8,0,,0.933,6,Bike,Cloudy,120.0
+834,Banjara Hills,17,2,10.11,0.906,7,Bike,Clear,104.0
+835,Uppal,14,6,9.3,0.546,7,Van,Clear,77.8
+836,Mehdipatnam,9,3,7.83,1.0,3,Van,Cloudy,90.4
+837,Dilsukhnagar,16,5,3.61,0.186,6,Bike,Cloudy,19.1
+838,Kukatpally,10,4,10.73,0.893,3,Van,Clear,112.7
+839,Attapur,9,5,5.71,0.806,5,Bike,Clear,55.1
+840,Kukatpally,10,5,16.66,0.827,3,Van,Clear,120.0
+841,Banjara Hills,12,1,10.91,0.653,1,Van,Clear,94.4
+842,Banjara Hills,21,0,11.08,,4,Bike,Clear,69.0
+843,Gachibowli,14,0,7.03,0.554,4,Van,Rain,59.6
+844,Kondapur,12,5,1.88,0.607,2,Bike,Cloudy,13.4
+845,Kondapur,18,3,1.54,0.814,2,Bike,Cloudy,19.9
+846,Gachibowli,10,0,8.2,0.716,3,Van,Clear,70.5
+847,Ameerpet,15,5,2.44,0.146,7,Bike,Cloudy,17.2
+848,Kukatpally,15,0,11.32,0.053,7,Bike,Clear,48.5
+849,Secunderabad,12,3,15.98,0.706,4,Bike,Clear,120.0
+850,Kukatpally,19,4,16.01,0.74,1,Bike,Clear,120.0
+851,Tolichowki,20,6,12.2,0.828,6,Bike,Cloudy,120.0
+852,Dilsukhnagar,15,5,4.59,0.222,1,Bike,Rain,22.6
+853,Banjara Hills,10,2,15.67,0.831,1,Van,Clear,120.0
+854,Mehdipatnam,8,2,16.06,0.882,3,Bike,Clear,120.0
+855,Attapur,12,5,4.34,0.586,3,Van,Clear,38.6
+856,Kukatpally,18,1,13.54,0.792,5,Bike,Cloudy,120.0
+857,Banjara Hills,16,4,5.87,0.233,1,Bike,Clear,34.3
+858,Kukatpally,16,1,14.64,0.278,7,Bike,Clear,
+859,Dilsukhnagar,7,6,17.95,0.225,7,Truck,Cloudy,98.3
+860,Ameerpet,20,2,1.51,,1,Van,Clear,22.3
+861,LB Nagar,17,3,16.26,0.899,3,Van,Clear,120.0
+862,Secunderabad,14,5,11.58,0.573,3,Bike,Clear,99.1
+863,Uppal,15,6,17.55,0.316,5,Van,Cloudy,109.4
+864,Hitech City,15,0,8.91,0.367,5,Bike,Clear,59.2
+865,Tolichowki,17,2,15.41,0.868,2,Bike,Rain,120.0
+866,Gachibowli,6,4,2.06,0.12,4,Van,Cloudy,13.8
+867,Gachibowli,18,2,6.7,0.89,1,Bike,Clear,69.4
+868,Uppal,11,4,2.14,0.185,7,Truck,Clear,10.2
+869,Secunderabad,12,4,17.58,0.447,1,Bike,Clear,120.0
+870,Mehdipatnam,19,5,14.89,0.909,5,Truck,Clear,120.0
+871,Kukatpally,18,4,15.49,0.974,5,Van,Rain,120.0
+872,Hitech City,13,1,16.95,0.502,2,Van,Cloudy,120.0
+873,Dilsukhnagar,15,6,2.45,0.281,4,Bike,Clear,16.6
+874,Kondapur,14,3,,0.67,2,Bike,Clear,71.6
+875,Kukatpally,7,2,2.21,0.274,7,Truck,Clear,14.3
+876,Ameerpet,16,3,4.58,0.51,4,Bike,Clear,36.1
+877,Banjara Hills,15,6,4.9,0.307,6,Van,Clear,25.9
+878,Uppal,7,0,8.97,,1,Truck,Clear,32.8
+879,Jubilee Hills,10,6,5.57,0.875,2,Bike,Rain,58.5
+880,Kukatpally,18,2,2.72,0.888,5,Van,Clear,28.0
+881,LB Nagar,10,3,3.85,0.929,2,Van,Clear,39.6
+882,Tolichowki,11,3,3.5,0.317,6,Bike,Rain,22.8
+883,Mehdipatnam,8,5,17.54,0.786,2,Bike,Clear,120.0
+884,Attapur,13,5,13.91,0.378,1,Bike,Clear,96.8
+885,Mehdipatnam,21,6,17.45,0.229,6,Bike,Clear,98.9
+886,Tolichowki,18,6,8.48,0.765,5,Van,Clear,78.3
+887,Jubilee Hills,6,0,5.73,0.192,5,Bike,Rain,33.8
+888,Kukatpally,11,4,14.57,0.309,3,Truck,Rain,90.0
+889,Tolichowki,9,2,6.55,0.967,6,Bike,Rain,73.3
+890,Secunderabad,6,5,,0.289,3,Van,Cloudy,35.6
+891,LB Nagar,20,2,4.95,0.73,3,Van,Clear,43.9
+892,Jubilee Hills,12,0,3.2,0.544,1,Bike,Rain,25.6
+893,Kukatpally,14,5,5.36,0.62,2,Bike,Rain,
+894,Gachibowli,18,5,7.04,0.789,5,Van,Clear,69.6
+895,LB Nagar,9,4,12.46,0.787,5,Truck,Clear,119.6
+896,Mehdipatnam,9,2,2.06,0.801,2,Bike,Clear,14.7
+897,Jubilee Hills,11,2,4.58,0.172,5,Bike,Clear,22.7
+898,Mehdipatnam,17,2,14.75,0.915,2,Bike,Clear,120.0
+899,Kukatpally,20,4,3.5,0.838,6,Bike,Rain,34.2
+900,Mehdipatnam,8,5,6.82,0.842,1,Van,Rain,67.9
+901,Kondapur,18,0,15.7,0.761,1,Van,Clear,120.0
+902,Banjara Hills,17,2,3.63,0.806,7,Bike,Clear,33.5
+903,Kondapur,11,3,2.41,0.322,1,Truck,Cloudy,10.6
+904,Uppal,12,4,9.24,0.463,2,Bike,Cloudy,67.2
+905,Uppal,16,1,6.14,0.423,7,Van,Clear,41.8
+906,Hitech City,15,0,10.58,0.21,2,Bike,Cloudy,55.4
+907,Kukatpally,15,3,14.66,0.272,4,Bike,Rain,86.9
+908,Madhapur,8,2,3.33,0.893,7,Bike,Rain,36.2
+909,Ameerpet,12,1,10.87,0.358,5,Bike,Clear,71.5
+910,Mehdipatnam,19,0,9.59,0.674,5,Van,Clear,85.8
+911,Kondapur,8,4,3.45,0.647,4,Van,Rain,35.3
+912,Jubilee Hills,18,1,11.61,0.976,4,Bike,Clear,120.0
+913,Secunderabad,18,5,5.65,0.795,1,Van,Cloudy,55.8
+914,Attapur,7,6,,0.506,4,Bike,Clear,69.5
+915,LB Nagar,17,1,2.4,0.794,2,Van,Clear,20.8
+916,Ameerpet,19,6,8.81,0.868,3,Bike,Clear,88.6
+917,Madhapur,15,3,6.21,0.404,2,Bike,Clear,41.5
+918,Mehdipatnam,9,0,14.98,1.0,7,Bike,Rain,120.0
+919,Dilsukhnagar,17,3,1.97,1.0,4,Van,Clear,29.1
+920,Kukatpally,13,3,8.12,0.621,5,Van,Rain,66.6
+921,Secunderabad,18,2,8.79,0.952,2,Bike,Rain,94.2
+922,Kukatpally,20,4,13.33,0.909,5,Bike,Clear,120.0
+923,Hitech City,14,1,10.76,0.578,2,Bike,Cloudy,89.0
+924,Madhapur,12,0,12.34,0.445,5,Van,Clear,89.7
+925,LB Nagar,6,5,14.21,0.168,6,Van,Cloudy,77.9
+926,Mehdipatnam,8,4,15.66,0.8,2,Bike,Clear,120.0
+927,LB Nagar,18,4,6.34,,7,Bike,Clear,56.2
+928,Kukatpally,17,0,10.15,0.805,5,Van,Clear,97.9
+929,Jubilee Hills,19,4,15.28,,3,Bike,Cloudy,
+930,Hitech City,14,2,17.82,0.596,7,Bike,Rain,120.0
+931,Gachibowli,20,4,16.12,0.859,1,Bike,Clear,120.0
+932,Dilsukhnagar,17,2,7.31,0.998,2,Bike,Clear,83.5
+933,Madhapur,6,1,4.32,0.136,3,Van,Clear,22.2
+934,Banjara Hills,14,1,9.32,0.481,1,Van,Cloudy,66.3
+935,Secunderabad,13,3,13.61,0.428,2,Bike,Clear,93.4
+936,Kondapur,6,2,9.37,0.063,3,Van,Cloudy,38.9
+937,Mehdipatnam,11,5,9.21,0.242,3,Bike,Clear,53.2
+938,Uppal,10,1,15.25,0.788,7,Van,Clear,120.0
+939,Attapur,11,4,7.14,0.401,6,Van,Cloudy,50.7
+940,Kukatpally,15,0,,0.313,3,Van,Cloudy,89.1
+941,Secunderabad,17,0,7.92,0.748,6,Bike,Cloudy,71.7
+942,Secunderabad,18,6,6.58,1.0,4,Bike,Clear,70.3
+943,Banjara Hills,21,2,8.72,0.372,7,Bike,Rain,57.5
+944,Tolichowki,18,5,13.96,0.908,5,Van,Clear,120.0
+945,Banjara Hills,18,3,3.14,0.827,7,Bike,Rain,33.7
+946,Hitech City,20,4,4.34,0.754,1,Truck,Clear,35.3
+947,Madhapur,10,2,17.17,0.763,5,Truck,Clear,120.0
+948,Jubilee Hills,21,6,3.98,0.359,5,Van,Clear,27.9
+949,Dilsukhnagar,11,0,10.65,0.438,6,Truck,Clear,81.8
+950,Uppal,10,2,,0.954,5,Bike,Clear,116.5
+951,LB Nagar,16,4,9.32,0.201,3,Bike,Rain,51.8
+952,Banjara Hills,17,5,11.96,0.738,6,Bike,Cloudy,106.0
+953,Banjara Hills,10,5,4.91,0.814,5,Van,Rain,41.2
+954,Mehdipatnam,9,1,10.4,0.623,6,Bike,Clear,90.8
+955,Kondapur,8,4,7.33,0.832,4,Truck,Clear,73.2
+956,Gachibowli,8,6,12.25,0.785,6,Bike,Rain,120.0
+957,Banjara Hills,9,1,3.4,0.753,2,Bike,Clear,27.9
+958,Gachibowli,14,1,10.7,0.341,3,Van,Clear,70.6
+959,Hitech City,7,1,4.15,0.301,1,Bike,Rain,31.2
+960,Jubilee Hills,20,2,5.74,0.797,2,Bike,Clear,57.1
+961,Secunderabad,14,6,4.72,0.383,2,Van,Clear,32.7
+962,Attapur,6,0,4.11,0.0,2,Bike,Rain,16.5
+963,Tolichowki,19,5,15.04,0.847,5,Bike,Clear,120.0
+964,LB Nagar,20,2,5.86,1.0,6,Bike,Rain,69.7
+965,Banjara Hills,20,0,16.76,1.0,6,Bike,Clear,120.0
+966,Kukatpally,6,5,17.49,0.204,7,Truck,Cloudy,97.2
+967,Attapur,10,6,10.71,0.74,5,Van,Clear,95.2
+968,Mehdipatnam,11,6,3.43,0.297,3,Bike,Cloudy,17.5
+969,Gachibowli,11,4,7.37,0.15,5,Bike,Clear,41.7
+970,Kondapur,8,5,14.56,0.83,5,Bike,Cloudy,120.0
+971,Dilsukhnagar,21,5,7.25,0.327,5,Truck,Clear,50.4
+972,Kondapur,12,6,2.48,0.623,3,Bike,Clear,20.8
+973,Banjara Hills,14,5,10.47,0.49,7,Bike,Cloudy,73.3
+974,Madhapur,16,3,15.37,0.23,3,Van,Clear,89.6
+975,Mehdipatnam,17,4,14.53,0.762,4,Truck,Clear,120.0
+976,Secunderabad,15,2,3.98,0.167,7,Bike,Clear,22.8
+977,Jubilee Hills,21,2,12.44,0.227,4,Bike,Clear,70.2
+978,Kukatpally,21,0,4.75,0.287,4,Bike,Clear,24.2
+979,Madhapur,13,2,4.71,0.591,4,Bike,Clear,39.4
+980,Kondapur,11,1,15.86,0.17,6,Van,Clear,89.4
+981,Gachibowli,17,5,5.24,0.999,2,Van,Cloudy,60.2
+982,Gachibowli,13,2,5.48,0.473,2,Van,Clear,40.4
+983,Madhapur,17,0,,0.848,4,Bike,Clear,13.4
+984,Gachibowli,10,0,15.8,0.725,4,Bike,Rain,120.0
+985,Kondapur,13,1,14.47,0.258,1,Bike,Rain,85.4
+986,Mehdipatnam,15,0,11.66,0.338,2,Bike,Clear,71.8
+987,Madhapur,17,6,13.75,0.924,1,Van,Clear,120.0
+988,Kondapur,9,3,3.58,0.772,7,Bike,Rain,37.4
+989,Kukatpally,15,6,8.79,0.257,1,Bike,Clear,48.9
+990,Secunderabad,13,5,6.97,0.552,5,Bike,Clear,59.8
+991,Dilsukhnagar,15,5,2.59,0.094,6,Bike,Clear,11.9
+992,Kukatpally,17,5,9.26,0.797,7,Bike,Cloudy,87.6
+993,Kukatpally,7,4,16.65,,3,Van,Clear,109.1
+994,Gachibowli,17,2,1.68,0.725,2,Bike,Cloudy,14.6
+995,Banjara Hills,17,3,5.95,0.879,4,Van,Cloudy,63.8
+996,Attapur,10,2,4.53,0.664,7,Bike,Clear,38.9
+997,Ameerpet,14,3,5.05,0.547,4,Bike,Rain,39.9
+998,Gachibowli,9,2,16.44,0.796,3,Truck,Clear,120.0
+999,Banjara Hills,21,1,,0.088,7,Bike,Clear,42.4
+1000,Kondapur,16,6,8.93,0.366,2,Van,Clear,53.3
+1001,Attapur,11,0,13.93,0.177,7,Bike,Clear,70.1
+1002,Attapur,20,0,3.63,0.769,4,Van,Clear,37.4
+1003,Ameerpet,6,6,9.28,0.27,4,Van,Clear,54.8
+1004,Gachibowli,14,1,8.31,0.615,5,Truck,Clear,68.5
+1005,Mehdipatnam,6,3,11.15,0.148,1,Van,Clear,52.4
+1006,Uppal,10,6,17.99,0.806,7,Van,Clear,120.0
+1007,Ameerpet,9,4,14.08,0.843,4,Bike,Cloudy,120.0
+1008,Ameerpet,18,3,7.76,0.919,6,Van,Clear,82.1
+1009,Hitech City,17,0,15.07,0.868,2,Van,Cloudy,120.0
+1010,Secunderabad,21,4,3.9,0.213,6,Bike,Clear,18.7
+1011,Hitech City,18,2,1.52,0.767,3,Bike,Clear,14.3
+1012,Banjara Hills,18,4,4.48,0.859,7,Van,Clear,46.7
+1013,Jubilee Hills,19,3,6.79,0.743,5,Bike,Clear,69.7
+1014,Tolichowki,8,1,9.68,0.508,2,Bike,Clear,69.6
+1015,Madhapur,18,2,11.46,0.894,5,Truck,Clear,120.0
+1016,Uppal,11,3,16.48,0.34,1,Bike,Rain,109.2
+1017,Dilsukhnagar,7,2,9.67,0.014,4,Bike,Rain,37.3
+1018,Jubilee Hills,8,4,,0.699,2,Van,Clear,86.6
+1019,Madhapur,21,0,1.85,0.312,3,Bike,Cloudy,10.2
+1020,Attapur,10,3,1.59,1.0,7,Van,Clear,18.4
+1021,Banjara Hills,20,1,10.37,0.852,1,Bike,Clear,109.6
+1022,LB Nagar,14,6,8.45,0.427,1,Bike,Cloudy,61.6
+1023,Mehdipatnam,7,4,15.27,0.232,5,Bike,Clear,88.1
+1024,Banjara Hills,15,3,3.73,0.387,1,Truck,Clear,24.0
+1025,Kondapur,13,1,1.42,0.435,2,Bike,Clear,5.7
+1026,Dilsukhnagar,19,3,8.63,0.77,5,Bike,Clear,81.8
+1027,Mehdipatnam,7,4,5.04,0.202,1,Bike,Clear,31.1
+1028,LB Nagar,16,3,1.84,0.155,7,Bike,Clear,5.0
+1029,Secunderabad,18,2,13.32,0.862,3,Bike,Clear,120.0
+1030,Attapur,10,4,2.9,0.962,7,Bike,Clear,32.0
+1031,Ameerpet,12,3,11.34,0.532,6,Van,Cloudy,85.9
+1032,Hitech City,13,6,5.78,0.475,2,Bike,Clear,40.5
+1033,Tolichowki,6,0,3.95,0.221,3,Van,Cloudy,
+1034,Hitech City,11,3,7.46,0.094,3,Van,Cloudy,30.8
+1035,Tolichowki,6,2,14.62,0.338,5,Bike,Cloudy,91.2
+1036,Banjara Hills,7,1,7.67,0.242,4,Bike,Cloudy,46.1
+1037,Attapur,21,6,13.76,0.232,5,Van,Clear,
+1038,Hitech City,20,1,3.13,1.0,2,Van,Clear,30.3
+1039,Tolichowki,6,6,14.14,0.28,2,Bike,Clear,83.1
+1040,Attapur,16,1,5.03,0.175,5,Truck,Rain,28.6
+1041,Uppal,10,0,12.52,0.757,4,Bike,Clear,117.7
+1042,Uppal,15,2,10.62,0.365,7,Bike,Clear,69.0
+1043,Uppal,20,4,16.8,0.861,5,Bike,Clear,120.0
+1044,Mehdipatnam,14,1,7.58,0.356,2,Truck,Rain,44.6
+1045,LB Nagar,11,6,2.12,0.342,4,Van,Clear,15.2
+1046,Banjara Hills,16,2,1.33,0.183,2,Van,Clear,8.2
+1047,Ameerpet,16,3,15.06,0.437,4,Bike,Clear,106.4
+1048,Banjara Hills,6,0,9.92,0.358,4,Bike,Rain,68.3
+1049,Kondapur,18,2,14.18,0.805,5,Bike,Clear,120.0
+1050,Secunderabad,6,2,,0.378,5,Van,Clear,36.9
+1051,Kukatpally,7,4,6.87,0.257,5,Bike,Cloudy,40.6
+1052,Gachibowli,14,2,1.51,0.585,4,Bike,Clear,11.4
+1053,LB Nagar,8,4,17.35,0.848,4,Bike,Rain,120.0
+1054,Secunderabad,20,0,12.35,0.765,2,Truck,Clear,117.2
+1055,Secunderabad,6,0,16.86,0.186,3,Bike,Clear,93.7
+1056,Jubilee Hills,10,3,5.51,0.903,5,Bike,Rain,54.7
+1057,Dilsukhnagar,21,4,11.39,0.217,6,Bike,Rain,61.1
+1058,Dilsukhnagar,12,4,12.53,0.46,2,Truck,Clear,94.7
+1059,LB Nagar,11,1,6.4,0.154,2,Truck,Clear,30.9
+1060,Uppal,17,1,15.42,0.892,1,Van,Cloudy,120.0
+1061,Madhapur,6,3,17.1,0.456,5,Bike,Clear,120.0
+1062,Gachibowli,10,0,16.04,0.693,7,Bike,Rain,120.0
+1063,Ameerpet,20,5,13.56,0.852,2,Truck,Rain,120.0
+1064,Uppal,10,1,5.72,0.941,1,Bike,Clear,58.1
+1065,LB Nagar,11,2,5.79,0.242,6,Bike,Rain,35.5
+1066,Kukatpally,8,0,17.38,0.845,6,Bike,Clear,120.0
+1067,Kukatpally,10,5,1.17,0.694,7,Truck,Cloudy,12.0
+1068,LB Nagar,12,2,13.17,0.543,5,Bike,Clear,102.2
+1069,Dilsukhnagar,10,6,13.01,0.781,4,Van,Rain,120.0
+1070,Secunderabad,10,4,11.59,0.899,1,Van,Cloudy,120.0
+1071,Mehdipatnam,10,0,17.83,0.919,4,Bike,Cloudy,120.0
+1072,Kondapur,15,6,6.3,0.509,6,Bike,Rain,47.3
+1073,Madhapur,15,3,6.78,0.308,6,Truck,Clear,45.0
+1074,Banjara Hills,8,4,2.34,0.833,3,Truck,Clear,24.0
+1075,Madhapur,6,4,8.53,0.269,3,Van,Rain,56.5
+1076,Jubilee Hills,10,2,5.44,0.765,7,Van,Cloudy,54.8
+1077,Madhapur,19,6,6.84,0.884,3,Bike,Rain,68.9
+1078,Secunderabad,14,4,15.19,0.47,3,Truck,Rain,112.3
+1079,Ameerpet,19,1,16.9,0.867,7,Bike,Clear,120.0
+1080,Secunderabad,6,0,4.16,0.382,2,Van,Clear,23.3
+1081,Mehdipatnam,8,1,7.33,0.699,3,Truck,Clear,63.4
+1082,Tolichowki,18,2,16.79,0.964,2,Van,Cloudy,120.0
+1083,Dilsukhnagar,18,5,2.05,0.982,2,Van,Clear,16.6
+1084,Ameerpet,9,2,2.57,0.788,5,Van,Cloudy,25.0
+1085,Hitech City,19,0,3.77,0.638,2,Bike,Clear,31.6
+1086,Ameerpet,6,4,11.12,0.189,2,Van,Clear,54.6
+1087,Madhapur,6,6,3.56,0.38,3,Bike,Clear,25.2
+1088,Mehdipatnam,13,6,17.46,0.498,2,Van,Clear,120.0
+1089,Madhapur,21,3,8.59,0.15,4,Bike,Cloudy,44.3
+1090,Madhapur,7,2,9.53,0.2,7,Bike,Clear,50.8
+1091,Hitech City,17,0,5.19,0.934,3,Van,Clear,57.5
+1092,Dilsukhnagar,20,3,9.01,0.905,7,Truck,Clear,96.7
+1093,Banjara Hills,13,4,12.25,0.476,1,Bike,Cloudy,91.9
+1094,Uppal,12,5,13.77,0.463,3,Van,Cloudy,98.5
+1095,Attapur,15,2,,0.211,2,Van,Clear,77.1
+1096,Gachibowli,15,5,10.82,0.158,4,Truck,Cloudy,59.2
+1097,Dilsukhnagar,7,0,16.37,0.412,7,Bike,Clear,112.2
+1098,Uppal,11,5,14.9,0.218,3,Van,Clear,89.2
+1099,Madhapur,11,5,13.87,0.372,4,Truck,Cloudy,91.0
+1100,LB Nagar,8,0,1.95,0.952,7,Bike,Clear,21.2
+1101,Uppal,16,0,1.12,0.35,1,Truck,Cloudy,5.3
+1102,Dilsukhnagar,7,2,4.61,0.207,6,Truck,Clear,26.0
+1103,Jubilee Hills,17,5,12.28,0.89,1,Truck,Rain,120.0
+1104,Kukatpally,6,3,7.99,0.248,6,Bike,Clear,44.6
+1105,Kukatpally,11,0,7.84,0.16,5,Bike,Clear,37.1
+1106,LB Nagar,17,4,16.04,0.882,6,Truck,Rain,120.0
+1107,Gachibowli,10,5,16.22,0.682,5,Bike,Clear,120.0
+1108,Gachibowli,19,0,16.46,0.969,3,Van,Clear,120.0
+1109,Tolichowki,19,3,6.34,0.804,5,Bike,Clear,54.9
+1110,Banjara Hills,16,6,12.75,0.27,4,Bike,Clear,81.9
+1111,Mehdipatnam,14,2,,0.528,5,Bike,Clear,44.7
+1112,Jubilee Hills,6,5,4.24,0.224,4,Van,Clear,21.5
+1113,Secunderabad,21,6,4.14,0.309,7,Bike,Cloudy,26.2
+1114,Dilsukhnagar,20,0,6.82,0.803,7,Van,Clear,67.2
+1115,Ameerpet,20,0,8.31,0.937,6,Van,Cloudy,87.3
+1116,Ameerpet,12,4,15.13,0.365,6,Van,Clear,100.9
+1117,Secunderabad,20,4,3.04,0.863,6,Van,Clear,29.2
+1118,Tolichowki,10,5,13.49,0.994,5,Bike,Clear,120.0
+1119,Kukatpally,10,6,10.03,0.7,6,Bike,Clear,88.7
+1120,Mehdipatnam,19,6,5.9,0.782,5,Bike,Clear,52.5
+1121,Secunderabad,7,0,9.38,0.301,5,Van,Clear,58.3
+1122,Dilsukhnagar,16,5,6.1,0.268,2,Van,Clear,37.9
+1123,Uppal,8,0,11.13,0.835,2,Bike,Clear,113.0
+1124,Jubilee Hills,12,4,8.38,0.549,5,Bike,Clear,
+1125,Madhapur,11,3,3.79,0.313,7,Van,Clear,24.7
+1126,Tolichowki,21,1,2.98,0.361,4,Bike,Cloudy,18.1
+1127,Hitech City,17,1,10.29,0.891,3,Truck,Clear,109.7
+1128,LB Nagar,7,0,16.34,0.226,1,Bike,Clear,87.9
+1129,Tolichowki,11,6,6.85,0.317,2,Truck,Clear,40.3
+1130,Madhapur,7,4,13.46,0.44,5,Bike,Clear,93.6
+1131,Hitech City,7,2,12.2,0.237,1,Bike,Clear,72.8
+1132,Ameerpet,7,2,16.84,0.153,2,Bike,Rain,88.7
+1133,Tolichowki,19,1,14.96,0.961,3,Bike,Cloudy,120.0
+1134,LB Nagar,20,3,,0.838,4,Bike,Cloudy,109.9
+1135,Tolichowki,16,1,12.17,0.033,5,Bike,Cloudy,48.9
+1136,Mehdipatnam,8,0,16.27,0.885,3,Van,Clear,120.0
+1137,Gachibowli,20,3,7.79,0.796,7,Bike,Clear,75.5
+1138,Uppal,7,2,6.56,0.241,2,Van,Cloudy,40.1
+1139,Dilsukhnagar,9,6,1.18,0.833,5,Bike,Clear,11.5
+1140,Madhapur,14,4,15.05,0.519,1,Truck,Clear,115.3
+1141,Tolichowki,11,4,14.62,0.321,7,Van,Cloudy,93.9
+1142,Secunderabad,6,0,2.78,0.206,7,Bike,Cloudy,17.9
+1143,Jubilee Hills,13,1,10.81,0.551,6,Bike,Clear,
+1144,Jubilee Hills,20,0,8.89,0.824,4,Bike,Clear,88.1
+1145,Kukatpally,17,4,3.02,0.924,7,Bike,Cloudy,29.0
+1146,Tolichowki,19,2,17.67,0.912,2,Van,Cloudy,120.0
+1147,Jubilee Hills,12,4,4.65,0.406,4,Van,Cloudy,32.8
+1148,Jubilee Hills,15,3,2.14,0.359,5,Truck,Rain,15.9
+1149,Gachibowli,8,6,11.11,0.746,6,Van,Clear,105.0
+1150,Secunderabad,6,6,13.56,0.331,3,Truck,Clear,80.7
+1151,Ameerpet,10,5,1.55,0.837,4,Truck,Clear,14.5
+1152,Jubilee Hills,18,4,12.2,1.0,1,Truck,Clear,120.0
+1153,Ameerpet,9,4,10.05,0.778,2,Bike,Rain,100.6
+1154,Gachibowli,15,6,2.76,0.215,1,Bike,Rain,12.0
+1155,Jubilee Hills,13,5,3.93,0.498,4,Bike,Clear,33.6
+1156,LB Nagar,6,3,10.66,0.22,6,Van,Clear,62.3
+1157,Dilsukhnagar,15,1,6.04,0.33,3,Bike,Clear,35.8
+1158,Kukatpally,6,4,16.95,0.088,3,Bike,Cloudy,75.2
+1159,Madhapur,17,6,14.92,0.745,1,Bike,Clear,120.0
+1160,Attapur,9,0,17.72,0.693,5,Bike,Clear,120.0
+1161,Dilsukhnagar,13,4,5.41,0.595,5,Van,Clear,45.2
+1162,Kondapur,10,0,17.49,0.971,6,Bike,Clear,120.0
+1163,LB Nagar,7,3,8.33,0.24,3,Van,Rain,42.3
+1164,Banjara Hills,11,4,6.91,0.233,1,Van,Clear,32.5
+1165,Jubilee Hills,10,6,1.86,0.807,1,Bike,Clear,18.9
+1166,Ameerpet,7,3,1.9,0.366,1,Van,Clear,10.9
+1167,Banjara Hills,18,3,12.76,,4,Van,Clear,119.0
+1168,Hitech City,19,1,8.78,0.874,6,Bike,Cloudy,92.5
+1169,Jubilee Hills,16,4,4.85,0.348,5,Bike,Clear,35.1
+1170,Kondapur,16,0,11.44,0.3,5,Bike,Clear,69.6
+1171,Gachibowli,21,0,5.3,0.269,4,Van,Cloudy,30.4
+1172,Mehdipatnam,16,4,10.82,0.35,2,Van,Clear,72.1
+1173,Kukatpally,8,5,7.11,0.53,4,Bike,Cloudy,51.5
+1174,Kondapur,20,1,15.0,0.918,6,Bike,Clear,120.0
+1175,Ameerpet,14,1,14.95,0.435,1,Bike,Clear,108.2
+1176,Gachibowli,12,1,9.11,0.317,4,Van,Cloudy,59.3
+1177,Tolichowki,12,0,6.96,0.551,1,Bike,Cloudy,49.7
+1178,Uppal,21,3,7.16,0.387,6,Van,Clear,46.3
+1179,Madhapur,20,6,14.7,0.836,7,Bike,Clear,120.0
+1180,Gachibowli,16,5,6.58,0.345,6,Van,Clear,43.0
+1181,Jubilee Hills,11,1,4.55,0.411,3,Van,Clear,33.1
+1182,Banjara Hills,21,0,2.44,0.381,1,Van,Clear,21.0
+1183,Attapur,13,0,8.93,0.664,5,Bike,Cloudy,77.0
+1184,Attapur,9,3,9.2,,4,Van,Clear,93.2
+1185,Banjara Hills,13,4,15.3,,7,Bike,Clear,120.0
+1186,Ameerpet,9,4,4.76,0.64,6,Bike,Clear,41.9
+1187,Attapur,13,6,7.48,0.475,1,Van,Clear,59.3
+1188,Gachibowli,14,6,14.74,0.416,7,Van,Cloudy,104.0
+1189,Kondapur,8,1,15.0,1.0,2,Van,Clear,120.0
+1190,LB Nagar,21,6,7.54,0.232,3,Bike,Clear,38.8
+1191,Ameerpet,8,1,8.81,0.812,2,Van,Rain,82.1
+1192,Uppal,16,5,6.16,0.305,6,Van,Clear,40.1
+1193,Tolichowki,18,6,16.85,,2,Truck,Clear,120.0
+1194,Kukatpally,21,3,3.02,0.42,2,Van,Clear,26.7
+1195,Mehdipatnam,7,1,16.87,0.188,3,Van,Rain,92.8
+1196,Ameerpet,18,3,12.63,0.869,3,Bike,Rain,120.0
+1197,Mehdipatnam,15,0,10.04,0.176,3,Van,Clear,51.1
+1198,Ameerpet,8,1,1.56,0.668,7,Van,Clear,10.2
+1199,Madhapur,8,0,9.09,0.739,3,Truck,Rain,87.2
+1200,Dilsukhnagar,10,2,7.93,0.796,2,Bike,Clear,78.5
+1201,Jubilee Hills,10,3,3.74,0.757,5,Bike,Clear,35.7
+1202,Madhapur,7,2,12.16,0.181,5,Bike,Cloudy,65.6
+1203,Attapur,17,1,17.51,0.709,3,Van,Clear,120.0
+1204,Banjara Hills,15,0,10.56,0.242,7,Truck,Clear,64.5
+1205,Banjara Hills,18,1,13.15,0.7,4,Bike,Cloudy,120.0
+1206,LB Nagar,11,2,2.16,0.326,1,Van,Clear,15.4
+1207,Hitech City,10,1,8.1,0.808,6,Van,Clear,82.1
+1208,Hitech City,11,5,2.98,0.104,7,Van,Clear,15.7
+1209,LB Nagar,6,4,11.42,0.219,4,Bike,Clear,62.3
+1210,Mehdipatnam,10,2,16.95,0.725,6,Van,Clear,120.0
+1211,Kondapur,14,1,12.25,0.532,4,Bike,Clear,91.7
+1212,Banjara Hills,17,0,2.31,0.984,4,Van,Cloudy,28.7
+1213,Dilsukhnagar,15,1,7.03,0.062,5,Bike,Rain,27.7
+1214,Madhapur,19,0,,0.862,1,Bike,Clear,106.6
+1215,Kukatpally,7,4,7.85,0.234,4,Van,Cloudy,42.1
+1216,Dilsukhnagar,6,1,15.17,0.317,3,Bike,Cloudy,97.0
+1217,Uppal,19,6,14.85,0.871,6,Bike,Cloudy,120.0
+1218,Mehdipatnam,15,6,11.4,0.175,7,Van,Clear,55.2
+1219,LB Nagar,18,4,7.35,0.818,5,Van,Rain,73.9
+1220,Hitech City,16,2,5.34,0.17,6,Van,Clear,26.2
+1221,Gachibowli,14,0,2.8,0.608,3,Bike,Clear,26.1
+1222,Dilsukhnagar,15,6,7.03,0.252,3,Bike,Clear,40.9
+1223,LB Nagar,14,5,8.02,0.69,4,Bike,Cloudy,73.2
+1224,Dilsukhnagar,20,2,12.49,0.844,3,Bike,Clear,120.0
+1225,Attapur,14,0,12.19,0.429,1,Truck,Clear,84.6
+1226,Uppal,11,4,,0.099,3,Bike,Cloudy,8.9
+1227,Tolichowki,20,6,7.72,,4,Bike,Rain,70.7
+1228,Dilsukhnagar,13,3,4.09,,6,Bike,Cloudy,31.5
+1229,Attapur,19,1,3.67,0.877,3,Bike,Clear,35.4
+1230,Dilsukhnagar,16,4,15.06,0.301,5,Van,Clear,96.1
+1231,Dilsukhnagar,20,0,1.71,0.692,7,Van,Cloudy,8.9
+1232,Hitech City,21,0,8.13,0.34,5,Bike,Clear,48.8
+1233,Banjara Hills,18,0,3.86,0.802,5,Bike,Cloudy,34.8
+1234,Ameerpet,6,0,15.95,0.265,6,Bike,Clear,90.1
+1235,Mehdipatnam,15,1,10.47,0.411,2,Van,Rain,68.1
+1236,Dilsukhnagar,9,2,4.93,0.89,7,Van,Clear,52.6
+1237,Dilsukhnagar,6,5,9.54,0.223,5,Bike,Clear,52.9
+1238,Jubilee Hills,13,3,13.44,0.411,5,Bike,Rain,94.6
+1239,Banjara Hills,6,1,17.29,0.035,2,Van,Clear,75.6
+1240,Attapur,8,0,4.75,0.728,6,Truck,Clear,44.7
+1241,Ameerpet,18,1,16.07,0.829,7,Truck,Cloudy,120.0
+1242,Kukatpally,9,4,16.88,0.701,5,Bike,Clear,120.0
+1243,Kukatpally,20,5,16.58,0.837,4,Bike,Clear,120.0
+1244,Gachibowli,20,0,11.8,0.858,6,Bike,Clear,120.0
+1245,LB Nagar,20,3,11.71,0.828,7,Van,Clear,114.8
+1246,Secunderabad,13,0,7.85,0.435,5,Truck,Clear,53.2
+1247,Madhapur,11,5,13.79,0.267,5,Bike,Cloudy,81.1
+1248,Jubilee Hills,19,3,10.03,0.894,2,Bike,Cloudy,102.0
+1249,Attapur,15,5,12.52,0.141,7,Bike,Clear,
+1250,Banjara Hills,17,3,8.28,0.991,4,Bike,Clear,93.3
+1251,Banjara Hills,12,2,13.44,0.49,6,Bike,Rain,102.2
+1252,Secunderabad,19,6,15.02,0.852,3,Van,Rain,120.0
+1253,Gachibowli,13,2,3.49,0.571,1,Bike,Clear,26.8
+1254,Kondapur,7,1,15.16,0.273,4,Bike,Cloudy,93.7
+1255,Hitech City,18,1,10.19,0.945,3,Van,Cloudy,111.6
+1256,Gachibowli,15,3,15.36,0.279,4,Bike,Clear,98.5
+1257,Uppal,19,0,8.33,0.789,7,Bike,Clear,84.2
+1258,Ameerpet,16,6,7.44,0.286,3,Bike,Clear,48.5
+1259,Mehdipatnam,13,4,,0.386,7,Truck,Cloudy,108.0
+1260,Gachibowli,8,4,5.27,0.811,3,Van,Cloudy,54.1
+1261,Secunderabad,12,0,15.35,0.497,4,Bike,Cloudy,116.1
+1262,Secunderabad,8,0,9.23,0.779,2,Van,Clear,87.0
+1263,Madhapur,20,2,9.74,0.837,4,Bike,Cloudy,98.2
+1264,Jubilee Hills,12,4,6.24,0.312,7,Van,Cloudy,41.8
+1265,Uppal,19,3,10.74,0.795,4,Van,Rain,106.0
+1266,Dilsukhnagar,16,5,6.53,0.259,3,Truck,Clear,35.7
+1267,LB Nagar,20,1,1.67,0.866,1,Bike,Cloudy,19.3
+1268,Kukatpally,17,5,5.62,0.747,3,Truck,Clear,50.8
+1269,Secunderabad,18,2,1.11,0.977,5,Truck,Cloudy,12.9
+1270,Madhapur,7,4,17.63,0.163,4,Truck,Cloudy,90.4
+1271,Hitech City,15,6,17.42,0.347,6,Van,Clear,112.5
+1272,Attapur,11,0,7.72,0.293,4,Bike,Cloudy,49.4
+1273,Tolichowki,8,6,13.38,0.735,2,Bike,Clear,120.0
+1274,Kukatpally,8,6,6.88,0.978,7,Bike,Cloudy,81.8
+1275,Kondapur,20,4,12.41,0.731,6,Bike,Clear,109.4
+1276,Banjara Hills,21,3,14.69,0.342,3,Van,Cloudy,93.1
+1277,Hitech City,14,2,17.09,0.6,2,Van,Rain,120.0
+1278,Kondapur,12,0,7.8,0.433,4,Truck,Clear,57.3
+1279,Kukatpally,10,5,14.32,0.939,3,Bike,Clear,120.0
+1280,Hitech City,17,3,5.52,0.825,3,Bike,Clear,54.7
+1281,Madhapur,15,5,17.84,0.279,5,Van,Clear,108.4
+1282,Kondapur,12,1,1.44,0.526,5,Bike,Clear,10.5
+1283,Mehdipatnam,14,2,11.26,0.487,1,Bike,Cloudy,88.7
+1284,Banjara Hills,6,3,12.21,0.331,5,Truck,Rain,80.5
+1285,Dilsukhnagar,12,3,12.7,0.579,7,Van,Rain,106.4
+1286,Madhapur,11,5,3.05,0.075,6,Bike,Clear,10.9
+1287,Attapur,15,0,16.96,0.38,3,Van,Cloudy,114.0
+1288,Ameerpet,19,1,4.08,0.684,5,Van,Cloudy,35.5
+1289,Mehdipatnam,17,5,11.59,0.953,1,Van,Clear,120.0
+1290,Mehdipatnam,14,3,4.79,0.613,4,Van,Clear,41.3
+1291,Banjara Hills,6,2,6.22,0.141,6,Bike,Clear,29.6
+1292,Jubilee Hills,18,3,10.29,0.809,5,Van,Cloudy,103.1
+1293,Attapur,9,4,8.09,0.689,3,Bike,Clear,69.3
+1294,Tolichowki,14,2,3.72,0.479,4,Bike,Cloudy,32.9
+1295,Gachibowli,9,2,3.91,0.769,7,Truck,Clear,34.6
+1296,Uppal,15,3,8.11,0.328,3,Van,Rain,52.2
+1297,Jubilee Hills,8,0,13.87,0.931,4,Van,Clear,120.0
+1298,LB Nagar,14,2,16.27,0.64,7,Van,Cloudy,120.0
+1299,Secunderabad,18,4,2.43,0.794,7,Truck,Clear,26.2
+1300,Dilsukhnagar,7,5,7.68,0.229,6,Truck,Clear,39.7
+1301,Ameerpet,20,0,2.7,0.682,3,Bike,Cloudy,28.4
+1302,Ameerpet,9,0,1.28,0.719,5,Bike,Rain,11.8
+1303,Gachibowli,20,0,,0.946,5,Bike,Clear,120.0
+1304,Kondapur,11,2,11.24,0.412,1,Bike,Clear,77.4
+1305,Gachibowli,7,0,3.77,0.127,4,Bike,Clear,20.9
+1306,Mehdipatnam,20,3,4.97,0.791,1,Van,Clear,46.5
+1307,Secunderabad,13,0,1.4,0.497,2,Van,Clear,8.4
+1308,Mehdipatnam,13,4,15.19,0.528,5,Truck,Cloudy,117.9
+1309,Jubilee Hills,6,1,17.57,0.169,4,Van,Rain,88.1
+1310,Mehdipatnam,17,4,3.3,0.892,6,Van,Clear,39.9
+1311,LB Nagar,8,2,4.94,0.753,1,Bike,Clear,44.8
+1312,Ameerpet,15,0,15.76,0.249,6,Bike,Clear,93.8
+1313,Jubilee Hills,14,0,16.75,0.555,6,Bike,Clear,120.0
+1314,Banjara Hills,10,3,8.13,0.801,6,Van,Clear,76.5
+1315,Dilsukhnagar,11,5,1.86,0.206,1,Bike,Clear,10.2
+1316,Hitech City,9,0,,0.789,2,Van,Clear,18.5
+1317,Secunderabad,15,6,10.76,0.241,7,Van,Clear,61.1
+1318,Uppal,21,4,7.68,0.213,7,Bike,Clear,46.1
+1319,Hitech City,7,2,1.49,0.224,1,Bike,Clear,11.4
+1320,Secunderabad,16,1,10.92,0.41,7,Bike,Clear,78.6
+1321,Kukatpally,13,0,1.19,0.556,3,Bike,Rain,8.2
+1322,Mehdipatnam,16,1,14.39,0.22,7,Van,Cloudy,77.1
+1323,Dilsukhnagar,18,0,6.21,0.92,5,Van,Rain,64.1
+1324,Banjara Hills,11,2,1.68,0.217,1,Van,Clear,10.0
+1325,Dilsukhnagar,10,5,11.0,0.917,7,Van,Clear,118.3
+1326,Kondapur,14,4,7.76,0.537,1,Van,Clear,54.5
+1327,Secunderabad,6,2,17.55,0.239,2,Truck,Clear,100.4
+1328,Uppal,10,1,10.25,0.845,3,Bike,Cloudy,103.8
+1329,Tolichowki,11,0,5.68,0.093,1,Van,Clear,25.7
+1330,Tolichowki,10,1,13.06,0.687,5,Bike,Clear,120.0
+1331,Hitech City,11,4,5.62,0.131,7,Bike,Clear,29.0
+1332,Secunderabad,11,6,16.37,0.264,5,Bike,Clear,100.6
+1333,Kondapur,12,2,7.37,0.673,7,Van,Rain,64.6
+1334,Secunderabad,21,1,10.35,0.473,1,Bike,Clear,79.5
+1335,Dilsukhnagar,9,1,1.86,0.864,6,Bike,Cloudy,23.9
+1336,Madhapur,19,4,8.24,0.9,7,Truck,Clear,90.3
+1337,Secunderabad,16,6,,0.07,6,Van,Rain,64.9
+1338,Kukatpally,19,0,14.7,0.796,3,Van,Clear,120.0
+1339,Kukatpally,19,6,4.81,0.771,5,Van,Cloudy,44.9
+1340,Ameerpet,19,1,4.84,0.788,6,Truck,Clear,48.3
+1341,Kukatpally,20,4,14.89,0.833,5,Van,Cloudy,120.0
+1342,Uppal,13,0,16.82,0.453,7,Bike,Clear,119.6
+1343,Secunderabad,12,6,2.62,0.302,7,Truck,Clear,16.4
+1344,LB Nagar,14,6,8.65,0.575,3,Van,Rain,64.3
+1345,Secunderabad,12,6,6.74,0.393,7,Bike,Rain,50.3
+1346,Madhapur,8,5,15.8,0.824,3,Bike,Clear,120.0
+1347,Kukatpally,8,0,2.42,1.0,6,Bike,Cloudy,27.3
+1348,Jubilee Hills,20,6,4.59,0.758,7,Truck,Clear,42.5
+1349,Tolichowki,13,5,13.79,0.247,1,Bike,Cloudy,83.1
+1350,Secunderabad,10,2,1.87,0.771,4,Truck,Cloudy,9.4
+1351,Uppal,9,4,9.37,0.91,2,Truck,Clear,98.9
+1352,Mehdipatnam,13,6,8.52,0.696,4,Van,Rain,76.4
+1353,Banjara Hills,20,0,6.68,0.727,4,Van,Cloudy,60.4
+1354,Banjara Hills,11,5,7.71,0.3,5,Bike,Clear,52.6
+1355,Hitech City,7,5,10.01,0.203,3,Bike,Cloudy,52.0
+1356,Uppal,9,2,3.74,0.789,5,Bike,Clear,
+1357,Madhapur,17,3,10.72,1.0,6,Van,Cloudy,120.0
+1358,Kondapur,16,4,14.69,0.1,2,Bike,Cloudy,73.1
+1359,Tolichowki,9,3,13.92,0.825,6,Bike,Clear,120.0
+1360,Jubilee Hills,20,0,3.62,0.897,1,Bike,Cloudy,
+1361,Secunderabad,11,4,3.54,0.359,2,Truck,Clear,26.6
+1362,Attapur,11,2,5.56,0.26,5,Bike,Clear,33.9
+1363,Mehdipatnam,6,0,7.14,0.281,7,Truck,Clear,38.4
+1364,Dilsukhnagar,19,4,7.94,0.811,7,Bike,Clear,76.5
+1365,Attapur,13,4,12.55,0.527,5,Van,Cloudy,99.0
+1366,Gachibowli,11,3,1.96,0.216,6,Bike,Clear,13.4
+1367,Gachibowli,8,0,1.59,0.862,5,Van,Clear,14.2
+1368,Kondapur,19,2,7.66,0.813,5,Van,Cloudy,66.8
+1369,Tolichowki,14,2,12.85,0.538,4,Bike,Clear,102.7
+1370,Ameerpet,7,0,,0.247,1,Van,Clear,21.1
+1371,Dilsukhnagar,20,0,11.91,,7,Van,Clear,120.0
+1372,Gachibowli,16,5,5.42,0.245,4,Van,Cloudy,22.7
+1373,Kondapur,13,1,16.06,0.323,5,Van,Clear,104.0
+1374,Uppal,15,3,16.23,0.376,3,Bike,Clear,109.2
+1375,Gachibowli,8,0,6.05,0.709,4,Van,Clear,54.5
+1376,Attapur,18,0,4.91,0.785,5,Truck,Cloudy,51.5
+1377,Madhapur,17,1,7.99,0.79,7,Truck,Clear,79.4
+1378,Uppal,10,1,5.09,0.937,5,Truck,Rain,59.6
+1379,Hitech City,11,4,12.43,0.036,1,Bike,Cloudy,48.8
+1380,Ameerpet,15,6,15.04,0.564,6,Van,Rain,120.0
+1381,Madhapur,11,2,12.44,0.356,2,Van,Clear,76.8
+1382,Dilsukhnagar,9,3,15.01,0.822,4,Bike,Clear,120.0
+1383,Kondapur,8,4,7.75,0.795,4,Van,Rain,74.6
+1384,Mehdipatnam,9,0,3.66,0.829,4,Van,Clear,38.3
+1385,Tolichowki,6,1,13.55,0.302,5,Bike,Clear,83.8
+1386,Jubilee Hills,9,5,7.13,0.865,1,Bike,Clear,74.8
+1387,Dilsukhnagar,6,2,12.41,0.306,5,Van,Rain,79.1
+1388,Dilsukhnagar,17,4,5.6,0.859,5,Bike,Cloudy,63.5
+1389,Kukatpally,20,5,2.38,0.83,6,Bike,Clear,22.8
+1390,Jubilee Hills,6,2,17.87,0.235,3,Bike,Cloudy,98.9
+1391,Banjara Hills,15,6,3.66,0.231,1,Bike,Clear,
+1392,Kukatpally,19,6,17.8,0.963,4,Truck,Cloudy,120.0
+1393,Kondapur,21,5,17.61,0.309,2,Bike,Clear,114.1
+1394,Banjara Hills,11,1,14.49,0.0,4,Van,Cloudy,57.1
+1395,Tolichowki,10,4,12.21,0.866,5,Truck,Clear,120.0
+1396,Gachibowli,19,4,10.82,0.869,1,Van,Clear,109.6
+1397,Uppal,16,6,15.72,0.248,7,Bike,Clear,93.1
+1398,Mehdipatnam,20,2,5.92,0.811,1,Van,Clear,57.8
+1399,Gachibowli,9,5,8.95,0.912,1,Bike,Cloudy,92.7
+1400,Dilsukhnagar,18,1,11.53,0.945,3,Bike,Clear,120.0
+1401,Kukatpally,16,0,7.99,0.173,4,Van,Clear,39.3
+1402,Secunderabad,8,4,8.27,0.841,3,Van,Clear,83.2
+1403,Jubilee Hills,6,0,6.61,0.153,7,Van,Clear,35.7
+1404,Uppal,11,1,10.59,0.112,7,Truck,Clear,46.0
+1405,Attapur,7,6,15.46,0.187,6,Van,Clear,84.1
+1406,Banjara Hills,13,4,4.43,0.586,2,Van,Clear,33.2
+1407,Jubilee Hills,15,4,16.89,0.345,6,Truck,Clear,112.0
+1408,Kukatpally,10,5,12.71,0.851,5,Bike,Clear,120.0
+1409,Mehdipatnam,12,0,15.0,0.573,3,Bike,Rain,120.0
+1410,Dilsukhnagar,15,6,10.46,0.302,3,Van,Cloudy,67.8
+1411,Madhapur,17,5,14.25,0.786,6,Van,Clear,120.0
+1412,Gachibowli,7,3,1.28,0.293,5,Bike,Cloudy,8.5
+1413,Banjara Hills,18,0,14.91,0.93,1,Bike,Cloudy,120.0
+1414,Mehdipatnam,13,0,1.68,0.575,5,Bike,Clear,12.0
+1415,Banjara Hills,7,3,16.13,0.369,4,Van,Cloudy,111.8
+1416,Kondapur,9,1,17.86,0.871,6,Van,Clear,120.0
+1417,Tolichowki,6,1,6.0,0.285,5,Truck,Cloudy,33.2
+1418,Banjara Hills,20,4,4.58,0.957,1,Van,Clear,51.8
+1419,Uppal,10,2,14.01,0.797,5,Van,Clear,120.0
+1420,Tolichowki,14,5,5.3,0.412,3,Bike,Clear,34.1
+1421,Kukatpally,6,2,15.71,0.234,2,Bike,Rain,85.0
+1422,Mehdipatnam,14,4,2.75,0.426,3,Bike,Cloudy,18.0
+1423,LB Nagar,16,2,3.14,0.182,7,Van,Clear,16.4
+1424,Banjara Hills,20,0,17.65,0.836,2,Bike,Clear,120.0
+1425,Banjara Hills,13,0,12.46,0.421,7,Van,Clear,90.4
+1426,Jubilee Hills,11,3,15.4,0.219,5,Van,Clear,87.5
+1427,Mehdipatnam,12,3,6.51,0.311,4,Bike,Clear,40.1
+1428,Attapur,8,4,12.5,0.821,5,Truck,Clear,120.0
+1429,LB Nagar,19,4,11.1,0.85,1,Van,Rain,113.9
+1430,Uppal,20,6,11.25,0.768,5,Bike,Cloudy,111.1
+1431,Dilsukhnagar,6,4,12.6,0.316,2,Bike,Clear,79.5
+1432,Hitech City,10,0,10.78,0.894,3,Van,Clear,111.1
+1433,Mehdipatnam,19,2,8.29,0.689,4,Bike,Rain,71.4
+1434,LB Nagar,17,5,5.69,0.774,7,Bike,Cloudy,50.1
+1435,Tolichowki,17,6,14.07,0.773,5,Van,Cloudy,120.0
+1436,Banjara Hills,7,6,4.85,0.156,5,Truck,Rain,26.6
+1437,Tolichowki,19,6,12.77,0.933,3,Bike,Cloudy,120.0
+1438,Secunderabad,10,4,4.97,0.781,4,Truck,Clear,47.4
+1439,Dilsukhnagar,13,4,11.63,0.474,6,Van,Clear,90.4
+1440,Ameerpet,16,0,13.7,0.05,7,Bike,Rain,58.2
+1441,Kondapur,14,5,4.72,0.564,5,Van,Clear,40.9
+1442,Mehdipatnam,7,0,2.02,0.126,5,Bike,Clear,9.8
+1443,LB Nagar,17,5,3.23,0.856,6,Bike,Clear,31.0
+1444,Jubilee Hills,8,0,11.3,0.828,7,Van,Cloudy,114.3
+1445,Kondapur,8,2,15.44,0.936,2,Van,Rain,120.0
+1446,Madhapur,6,4,,0.119,2,Bike,Clear,9.6
+1447,Attapur,13,1,13.48,0.198,1,Truck,Clear,73.4
+1448,Tolichowki,21,1,6.8,0.268,3,Van,Rain,40.2
+1449,Banjara Hills,11,4,9.13,0.43,4,Truck,Clear,72.0
+1450,LB Nagar,17,6,16.79,0.974,5,Bike,Clear,120.0
+1451,Gachibowli,21,4,6.64,0.271,7,Truck,Rain,41.7
+1452,Secunderabad,18,4,,0.801,5,Bike,Clear,87.4
+1453,Jubilee Hills,13,4,1.23,0.581,1,Bike,Clear,13.1
+1454,Kondapur,16,6,2.39,0.153,7,Van,Cloudy,13.7
+1455,Banjara Hills,14,5,5.4,0.548,7,Van,Clear,42.9
+1456,Gachibowli,10,2,1.47,0.851,5,Van,Rain,14.0
+1457,Gachibowli,19,1,11.73,0.956,3,Bike,Clear,120.0
+1458,Madhapur,17,3,8.25,1.0,1,Bike,Clear,82.9
+1459,Dilsukhnagar,19,1,10.32,0.889,3,Van,Clear,108.0
+1460,Secunderabad,8,1,3.97,0.749,1,Bike,Clear,35.8
+1461,Hitech City,10,6,6.03,0.797,5,Van,Cloudy,63.5
+1462,Secunderabad,10,0,12.29,0.623,1,Bike,Cloudy,104.3
+1463,Madhapur,10,4,17.41,0.731,2,Truck,Rain,120.0
+1464,Kukatpally,8,4,,0.759,7,Van,Clear,17.4
+1465,Uppal,16,4,16.14,0.198,4,Van,Cloudy,84.4
+1466,Dilsukhnagar,19,0,10.81,0.865,5,Truck,Clear,112.0
+1467,Jubilee Hills,15,6,10.59,0.168,6,Van,Cloudy,56.0
+1468,LB Nagar,19,2,9.5,0.962,4,Bike,Cloudy,
+1469,Dilsukhnagar,9,2,2.18,0.8,5,Bike,Clear,18.9
+1470,Attapur,14,6,2.53,0.499,4,Van,Clear,19.3
+1471,Madhapur,18,3,11.22,0.817,2,Bike,Clear,106.8
+1472,Madhapur,15,2,6.8,0.266,4,Van,Clear,42.3
+1473,Jubilee Hills,14,6,16.59,0.583,1,Bike,Rain,120.0
+1474,Jubilee Hills,7,2,7.91,0.163,4,Bike,Clear,42.4
+1475,Attapur,13,4,3.44,0.434,5,Van,Clear,24.5
+1476,Jubilee Hills,13,5,13.15,0.47,6,Truck,Clear,98.3
+1477,Dilsukhnagar,12,6,5.99,0.365,6,Van,Cloudy,44.5
+1478,Uppal,13,1,9.93,0.418,3,Truck,Clear,68.8
+1479,Banjara Hills,19,2,12.86,0.802,7,Truck,Clear,120.0
+1480,Kondapur,21,2,16.3,0.337,4,Bike,Clear,101.6
+1481,Ameerpet,8,0,14.47,0.826,6,Bike,Cloudy,120.0
+1482,Jubilee Hills,18,3,12.5,0.869,4,Van,Clear,120.0
+1483,Mehdipatnam,11,5,12.55,0.335,7,Truck,Cloudy,83.8
+1484,Tolichowki,6,0,17.08,0.236,6,Van,Clear,96.6
+1485,Kondapur,12,4,6.03,0.539,7,Truck,Clear,46.8
+1486,Uppal,20,1,1.02,0.84,4,Bike,Clear,9.0
+1487,Ameerpet,20,3,5.62,0.877,5,Bike,Clear,56.4
+1488,Dilsukhnagar,6,0,4.7,0.192,4,Van,Clear,26.2
+1489,Attapur,14,6,12.25,0.256,7,Bike,Clear,67.1
+1490,Kondapur,6,2,11.77,0.237,5,Bike,Cloudy,71.0
+1491,Jubilee Hills,6,2,11.09,0.392,5,Bike,Clear,73.7
+1492,Hitech City,20,3,1.28,0.943,3,Bike,Clear,15.9
+1493,Tolichowki,12,2,13.39,0.597,6,Van,Rain,107.3
+1494,Madhapur,7,6,6.5,0.374,1,Truck,Clear,45.5
+1495,LB Nagar,19,0,12.31,0.859,5,Truck,Cloudy,120.0
+1496,LB Nagar,10,0,10.46,0.82,7,Van,Cloudy,104.7
+1497,Kondapur,13,2,6.83,0.438,6,Bike,Clear,45.9
+1498,LB Nagar,13,2,3.29,0.468,2,Van,Cloudy,25.0
+1499,Gachibowli,8,4,2.61,0.862,4,Bike,Clear,23.0
+1500,Gachibowli,12,1,15.14,0.62,7,Bike,Clear,

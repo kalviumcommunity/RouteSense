@@ -1,0 +1,31 @@
+from_zone,to_zone,distance_km
+Banjara Hills,Jubilee Hills,3.2
+Jubilee Hills,Hitech City,5.1
+Hitech City,Gachibowli,4.3
+Gachibowli,Kondapur,3.8
+Kondapur,Madhapur,2.9
+Madhapur,Hitech City,3.0
+Madhapur,Kukatpally,6.5
+Kukatpally,Ameerpet,4.0
+Ameerpet,Banjara Hills,3.5
+Ameerpet,Secunderabad,5.2
+Secunderabad,Uppal,7.8
+Uppal,Dilsukhnagar,4.1
+Dilsukhnagar,LB Nagar,3.3
+LB Nagar,Mehdipatnam,8.9
+Mehdipatnam,Attapur,3.0
+Attapur,Tolichowki,2.4
+Tolichowki,Mehdipatnam,2.8
+Mehdipatnam,Banjara Hills,4.5
+Gachibowli,Mehdipatnam,6.2
+Jubilee Hills,Ameerpet,4.8
+Kukatpally,Hitech City,7.1
+Secunderabad,Ameerpet,4.6
+LB Nagar,Uppal,3.7
+Kondapur,Gachibowli,3.8
+Banjara Hills,Hitech City,6.0
+Ameerpet,Mehdipatnam,5.3
+Dilsukhnagar,Secunderabad,9.2
+Attapur,LB Nagar,7.1
+Tolichowki,Banjara Hills,5.8
+Kukatpally,Secunderabad,8.4

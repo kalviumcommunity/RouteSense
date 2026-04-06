@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | RouteSense</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav id="main-nav">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <span>RouteSense</span>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <button class="btn btn-ghost" onclick="navigateTo('landing')">Home</button>
+                <button class="btn btn-ghost" onclick="navigateTo('signin')">Sign In</button>
+                <button class="btn btn-primary" onclick="navigateTo('signup')">Get Started</button>
+            </div>
+        </nav>
+
+        <!-- Sign Up View -->
+        <main class="view active">
+            <div class="auth-container">
+                <div class="auth-card glass-card">
+                    <h2>Create Account</h2>
+                    <p>Start optimizing your delivery pathways today.</p>
+                    <form id="signup-form" onsubmit="handleAuth(event, 'dashboard')">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="signup-first-name">First Name</label>
+                                <input type="text" id="signup-first-name" placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="signup-last-name">Last Name</label>
+                                <input type="text" id="signup-last-name" placeholder="Doe" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-company">Company</label>
+                            <input type="text" id="signup-company" placeholder="Delivery Co." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-email">Work Email</label>
+                            <input type="email" id="signup-email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-password">Password</label>
+                            <div style="position: relative;">
+                                <input type="password" id="signup-password" placeholder="Create a strong password" required style="padding-right: 48px;">
+                                <button type="button" onclick="togglePasswordVisibility('signup-password', 'eye-icon-signup')" style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text-muted); cursor: pointer; display: flex; align-items: center; justify-content: center;">
+                                    <svg id="eye-icon-signup" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                        <circle cx="12" cy="12" r="3"></circle>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Create Account</button>
+                    </form>
+                    <div class="auth-footer">
+                        Already have an account? <a href="#" onclick="navigateTo('signin')" class="text-link">Sign in</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -152,8 +152,9 @@ async function updateAnalytics() {
         const response = await fetch('/api/analytics');
         const data = await response.json();
         
-        const boxes = document.querySelectorAll('.stats-row .stat-card .stat-value');
+        const boxes = document.querySelectorAll('.delivery-status-panel .status-card .value');
         if(boxes.length >= 3) {
+
             // Update stats, but preserve the latest AI prediction if it exists
             boxes[0].innerText = data.active_deliveries.toLocaleString();
             

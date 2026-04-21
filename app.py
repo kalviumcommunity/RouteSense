@@ -1,69 +1,124 @@
-from flask import Flask, jsonify, send_from_directory, request
+import pandas as pd
 import networkx as nx
 import random
-import time
-import math
+import os
 from datetime import datetime
+from flask import Flask, jsonify, send_from_directory, request
 
 app = Flask(__name__, static_folder=".")
 
 # ==========================================
-# CORE DATA MODEL: Route Optimization Engine
+# CORE DATA MODEL: AI Route Optimization
 # ==========================================
 
-def get_time_factor():
-    hour = datetime.now().hour
-    if 8 <= hour <= 10: return 2.5 # Morning Rush
-    elif 11 <= hour <= 15: return 1.5 # Mid-day
-    elif 16 <= hour <= 19: return 3.0 # Evening Rush
-    else: return 0.8 # Night
+# Zone coordinates for visualization (from Sprint 3 Notebook)
+ZONE_POSITIONS = {
+    'Hitech City'   : (0.50, 0.75), 'Gachibowli'    : (0.30, 0.65),
+    'Kondapur'      : (0.35, 0.82), 'Madhapur'      : (0.45, 0.88),
+    'Banjara Hills' : (0.55, 0.55), 'Jubilee Hills' : (0.48, 0.62),
+    'Ameerpet'      : (0.65, 0.58), 'Kukatpally'    : (0.55, 0.88),
+    'Secunderabad'  : (0.80, 0.65), 'Uppal'         : (0.90, 0.48),
+    'Dilsukhnagar'  : (0.80, 0.40), 'LB Nagar'      : (0.75, 0.28),
+    'Mehdipatnam'   : (0.52, 0.32), 'Attapur'       : (0.40, 0.25),
+    'Tolichowki'    : (0.35, 0.32),
+}
 
-def get_day_factor():
-    day = datetime.now().weekday()
-    if day < 5: return 1.2 # Weekday heavier
-    else: return 0.9 # Weekend lighter
+class RouteEngine:
+    def __init__(self):
+        self.load_data()
+        self.build_graph()
 
-def get_weather_factor():
-    state = random.choices(["clear", "rain", "snow", "storm"], weights=[0.7, 0.2, 0.05, 0.05])[0]
-    impact = {"clear": 1.0, "rain": 1.3, "snow": 1.8, "storm": 2.5}
-    return impact[state], state
+    def load_data(self):
+        try:
+            self.df_roads = pd.read_csv('data/road_network.csv')
+            self.df_traffic = pd.read_csv('data/traffic_data.csv')
+            self.zones = list(ZONE_POSITIONS.keys())
+            print("✅ Data layers initialized from CSV files.")
+        except Exception as e:
+            print(f"⚠️ Error loading data: {e}. Using fallback simulation.")
+            self.df_roads = None
+            self.df_traffic = None
+            self.zones = list(ZONE_POSITIONS.keys())
 
-def build_urban_data_model():
-    """
-    Builds a simulated graph with locality and multi-factor data.
-    """
-    G = nx.grid_2d_graph(6, 6) 
-    localities = ["Downtown", "Midtown", "Uptown", "Zone A", "Zone B", "Zone C"]
-    
-    for (u, v) in G.edges():
-        G.nodes[u]['area'] = localities[u[0]]
-        G.edges[u, v]['base_distance'] = random.uniform(500, 1200)
-        G.edges[u, v]['historical_congestion'] = random.uniform(1.0, 2.0)
-        G.edges[u, v]['realtime_factor'] = random.uniform(1.0, 1.5)
-        # 4. Accidents or road closures
-        G.edges[u, v]['incident_factor'] = random.choices([1.0, 5.0, 10.0], weights=[0.95, 0.04, 0.01])[0]
+    def get_traffic_factor(self, from_z, to_z, hour):
+        if self.df_traffic is None:
+            return random.uniform(1.0, 2.0)
         
-    return G
+        # Calculate mean congestion for these zones at the given hour
+        cong = self.df_traffic[(self.df_traffic['zone'].isin([from_z, to_z])) & 
+                                (self.df_traffic['hour'] == hour)]['congestion'].mean()
+        return 1.0 + (1.5 * cong if not pd.isna(cong) else 0.5)
 
-city_graph = build_urban_data_model()
+    def build_graph(self, hour=None):
+        if hour is None:
+            hour = datetime.now().hour
+            
+        self.G = nx.Graph()
+        
+        if self.df_roads is not None:
+            for _, row in self.df_roads.iterrows():
+                u, v, dist = row['from_zone'], row['to_zone'], row['distance_km']
+                weight = dist * self.get_traffic_factor(u, v, hour)
+                self.G.add_edge(u, v, base_distance=dist, weight=weight)
+        else:
+            # Fallback random graph if files missing
+            for i in range(len(self.zones)):
+                for j in range(i+1, len(self.zones)):
+                    if random.random() > 0.7:
+                        u, v = self.zones[i], self.zones[j]
+                        dist = random.uniform(2, 10)
+                        self.G.add_edge(u, v, base_distance=dist, weight=dist * random.uniform(1, 2))
 
-def calculate_intelligent_weight(u, v, edge_data):
-    """
-    Predict travel time based on 11 inputs.
-    """
-    dist = edge_data['base_distance']
-    hist = edge_data['historical_congestion']
-    live = edge_data['realtime_factor']
-    incidents = edge_data['incident_factor']
-    
-    time_f = get_time_factor()
-    day_f = get_day_factor()
-    weather_f, _ = get_weather_factor()
-    
-    # Area/locality factor
-    locality_f = 1.2 if city_graph.nodes[u]['area'] == "Downtown" else 1.0
-    
-    return dist * hist * live * incidents * time_f * day_f * weather_f * locality_f
+    def get_weather(self):
+        state = random.choices(["Clear", "Rain", "Cloudy", "Storm"], weights=[0.6, 0.2, 0.15, 0.05])[0]
+        impact = {"Clear": 1.0, "Rain": 1.3, "Cloudy": 1.1, "Storm": 2.2}
+        return state, impact[state]
+
+    def optimize(self):
+        hour = datetime.now().hour
+        self.build_graph(hour) # Update weights for current time
+        
+        start_node = random.choice(self.zones)
+        end_node = random.choice([z for z in self.zones if z != start_node])
+        
+        weather_label, weather_f = self.get_weather()
+        
+        try:
+            # Smart Path (AI Weighted)
+            smart_path = nx.dijkstra_path(self.G, start_node, end_node, weight='weight')
+            smart_weight = nx.path_weight(self.G, smart_path, weight='weight') * weather_f
+            
+            # Legacy Path (Distance only)
+            legacy_path = nx.dijkstra_path(self.G, start_node, end_node, weight='base_distance')
+            legacy_weight = nx.path_weight(self.G, legacy_path, weight='weight') * weather_f
+            
+            # Mock conversion to minutes
+            smart_time = round(smart_weight * 2.5, 1)
+            legacy_time = round(legacy_weight * 2.5, 1)
+            
+            def fmt_path(path):
+                return [{"x": int(ZONE_POSITIONS[n][0]*100), "y": int(ZONE_POSITIONS[n][1]*100), "area": n} for n in path]
+
+            return {
+                "status": "success",
+                "source": start_node,
+                "destination": end_node,
+                "weather": weather_label,
+                "day": datetime.now().strftime("%A"),
+                "smart_path": fmt_path(smart_path),
+                "legacy_path": fmt_path(legacy_path),
+                "metrics": {
+                    "predicted_travel_time": f"{smart_time}m",
+                    "time_saved": f"{round(max(0, legacy_time - smart_time), 1)}m",
+                    "optimization_benefit": round(max(0, (legacy_time - smart_time)/legacy_time)*100, 1) if legacy_time > 0 else 0,
+                    "recommendation": f"Route via {smart_path[1] if len(smart_path)>1 else 'direct'} prioritized to bypass congestion hotspots in {start_node}.",
+                    "timestamp": datetime.now().strftime("%H:%M:%S")
+                }
+            }
+        except Exception as e:
+            return {"status": "error", "message": str(e)}
+
+engine = RouteEngine()
 
 # ==========================================
 # API ENDPOINTS
@@ -93,62 +148,12 @@ def serve_css(path):
 def serve_js(path):
     return send_from_directory('js', path)
 
-@app.route("/health")
-def health_check():
-    return jsonify({"status": "running", "message": "RouteSense AI Engine is alive!"})
-
 @app.route("/api/optimize", methods=["GET"])
 def optimize_route():
-    # Simulation inputs
-    start_node = (random.randint(0, 1), random.randint(0, 1))
-    end_node = (random.randint(4, 5), random.randint(4, 5))
-    
-    weather_f, weather_label = get_weather_factor()
-    day_name = datetime.now().strftime("%A")
-    
-    try:
-        # 1. Dijkstra Path using standard base dist (Unoptimized/Legacy)
-        legacy_path = nx.dijkstra_path(city_graph, start_node, end_node, weight='base_distance')
-        
-        # 2. Dijkstra Path using our AI Data Model
-        smart_path = nx.dijkstra_path(city_graph, start_node, end_node, weight=calculate_intelligent_weight)
-        
-        # Calculate Predicted Travel Time (Mock conversion to minutes)
-        def get_travel_time(path):
-            weight = nx.path_weight(city_graph, path, weight=calculate_intelligent_weight)
-            return round(weight / 5000, 1) # Simple divisor for mock minutes
-
-        smart_time = get_travel_time(smart_path)
-        legacy_time = get_travel_time(legacy_path)
-        
-        # Format paths for frontend SVG (0-100% coordinates)
-        def fmt_path(p):
-            return [{"x": int((n[1]/5.0)*80 + 10), "y": int((n[0]/5.0)*80 + 10), "area": city_graph.nodes[n]['area']} for n in p]
-
-        return jsonify({
-            "status": "success",
-            "source": f"{city_graph.nodes[start_node]['area']} Intersection",
-            "destination": f"{city_graph.nodes[end_node]['area']} Hub",
-            "weather": weather_label,
-            "day": day_name,
-            "smart_path": fmt_path(smart_path),
-            "legacy_path": fmt_path(legacy_path),
-            "metrics": {
-                "predicted_travel_time": f"{smart_time}m",
-                "time_saved": f"{round(legacy_time - smart_time, 1)}m",
-                "optimization_benefit": round(((legacy_time - smart_time)/legacy_time)*100, 1) if legacy_time > 0 else 0,
-                "recommendation": f"Route via {city_graph.nodes[smart_path[1]]['area']} prioritized to avoid congestion hotspots.",
-                "timestamp": datetime.now().strftime("%H:%M:%S")
-            }
-        })
-    except Exception as e:
-        return jsonify({"status": "error", "message": str(e)})
+    return jsonify(engine.optimize())
 
 @app.route("/api/analytics", methods=["GET"])
 def get_analytics():
-    """
-    Provides mock data for the dashboard statistics.
-    """
     return jsonify({
         "active_deliveries": random.randint(1100, 1400),
         "avg_delay_time": f"{round(random.uniform(2.0, 5.0), 1)}m",
@@ -158,15 +163,7 @@ def get_analytics():
 if __name__ == "__main__":
     print("="*60)
     print("🚀 RouteSense AI Engine Initialized 🚀")
-    
-    try:
-        from waitress import serve
-        print("Production WSGI Server Serving on: http://localhost:5000")
-        print("="*60)
-        serve(app, host="0.0.0.0", port=5000)
-    except ImportError:
-        print("Waitress not found. Falling back to Development Server...")
-        print("Server Serving on: http://localhost:5000")
-        print("="*60)
-        # Using debug=True only in fallback to help the user identify local issues
-        app.run(debug=True, port=5000)
+    print("Serving on: http://localhost:5000")
+    print("="*60)
+    app.run(debug=True, port=5000)
+=5000)

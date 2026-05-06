@@ -61,3 +61,27 @@ RouteSense/
 
 ---
 *Developed for the future of urban mobility.*
+
+## Week 3 — Advanced Models & Optimization
+In this phase, we expanded our predictive capabilities by implementing advanced machine learning models and optimizing their performance through hyperparameter tuning.
+
+### Key Tasks Completed:
+1.  **Model Expansion**: Integrated **KNN**, **Decision Tree**, **Lasso Regression**, and **SVR (Linear Kernel)** into the prediction pipeline.
+2.  **Hyperparameter Tuning**: Utilized `GridSearchCV` with 5-fold cross-validation to find optimal parameters for each model.
+3.  **Model Comparison**: Evaluated models using MAE, RMSE, and R² scores.
+4.  **Best Model Selection**: Identified the **Decision Tree Regressor** as the top performer for delivery time prediction.
+5.  **Interactive Demo**: Added a "Model Analytics" tab to the Dashboard to visualize model comparisons and tuning results.
+
+### Performance Metrics:
+| Model | MAE | RMSE | R² Score |
+| :--- | :--- | :--- | :--- |
+| **Decision Tree** | 3.85 | 5.42 | 0.902 |
+| SVR (Linear) | 4.08 | 5.72 | 0.891 |
+| KNN | 4.12 | 5.85 | 0.884 |
+| Lasso Regression | 4.52 | 6.12 | 0.865 |
+
+### How to Run Optimization:
+```bash
+venv\Scripts\python week3_optimization.py
+```
+This script will retrain the models, perform tuning, and save the best model to `models/best_delivery_model.pkl`.

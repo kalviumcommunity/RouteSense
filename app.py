@@ -148,6 +148,10 @@ def serve_css(path):
 def serve_js(path):
     return send_from_directory('js', path)
 
+@app.route("/data/<path:path>")
+def serve_data(path):
+    return send_from_directory('data', path)
+
 @app.route("/api/optimize", methods=["GET"])
 def optimize_route():
     return jsonify(engine.optimize())

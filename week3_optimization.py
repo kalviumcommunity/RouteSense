@@ -5,9 +5,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.linear_model import Lasso
-from sklearn.svm import SVR
+from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import pickle
 import os
@@ -90,24 +88,10 @@ def train_and_tune():
                 'weights': ['uniform', 'distance']
             }
         },
-        'Decision Tree': {
-            'model': DecisionTreeRegressor(random_state=42),
+        'Ridge Regression': {
+            'model': Ridge(random_state=42),
             'params': {
-                'max_depth': [None, 5, 10, 15],
-                'min_samples_split': [2, 5, 10]
-            }
-        },
-        'Lasso Regression': {
-            'model': Lasso(random_state=42),
-            'params': {
-                'alpha': [0.01, 0.1, 1.0, 10.0]
-            }
-        },
-        'SVR (Linear)': {
-            'model': SVR(kernel='linear'),
-            'params': {
-                'C': [0.1, 1.0, 10.0],
-                'epsilon': [0.01, 0.1, 0.2]
+                'alpha': [0.01, 0.1, 1.0, 10.0, 100.0]
             }
         }
     }
@@ -178,7 +162,7 @@ def plot_comparison(df):
 
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
     plt.savefig('data/week3_model_comparison.png', bbox_inches='tight', facecolor='#0f1117')
-    plt.show()
+    # plt.show()
     print("Saved comparison plot to data/week3_model_comparison.png")
 
 if __name__ == "__main__":

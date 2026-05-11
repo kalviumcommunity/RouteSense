@@ -85,3 +85,57 @@ In this phase, we expanded our predictive capabilities by implementing advanced 
 venv\Scripts\python week3_optimization.py
 ```
 This script will retrain the models, perform tuning, and save the best model to `models/best_delivery_model.pkl`.
+
+### Launch the Streamlit App
+To view the comprehensive RouteSense dashboard and prediction engine:
+```bash
+streamlit run streamlit_app.py
+```
+
+### Launch the Flask Server (Optional)
+```bash
+python app.py
+```
+
+---
+
+## 📋 Sprint Breakdown
+
+| Sprint | Focus | Status |
+|--------|-------|--------|
+| Week 1 | Problem definition, data generation, initial EDA | ✅ Complete |
+| Week 2 | Data preprocessing, feature engineering, ML model training | ✅ Complete |
+| Week 3 | Route optimization (Dijkstra), interactive dashboard + EDA charts | ✅ Complete |
+| **Week 4** | **Insights derivation, assumptions/limitations, full website, README, demo** | ✅ **Complete** |
+
+---
+
+## 🔌 API Reference
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/optimize` | GET | Run Dijkstra route optimization with live factors |
+| `/api/analytics` | GET | Real-time fleet statistics |
+| `/api/eda-data` | GET | EDA chart data from CSVs (histogram, line, boxplot, etc.) |
+| `/api/insights` | GET | Derived insights & ML metrics |
+
+---
+
+## 📈 Model Performance (Sprint 3)
+
+| Model | MAE (min) | RMSE (min) | R² |
+|-------|-----------|------------|-----|
+| Linear Regression | 8.2 | 11.4 | 0.71 |
+| Decision Tree | 6.1 | 9.8 | 0.79 |
+| **Random Forest** | **4.3** | **7.9** | **0.88** |
+
+---
+
+## 👤 Author
+
+**Nikhil Reddy** | Applied Data Science Foundations — Kalvium  
+Final Project: RouteSense — Urban Delivery Route Optimization
+
+---
+
+*"Navigate smarter. Deliver faster. RouteSense."*

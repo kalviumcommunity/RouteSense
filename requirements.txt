@@ -20,3 +20,6 @@ plotly==5.20.0
 jupyter==1.0.0
 notebook==7.1.2
 ipykernel==6.29.3
+
+# Dashboard
+streamlit>=1.30.0
